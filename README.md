@@ -34,11 +34,11 @@ Currently exploring and enhancing skills in:
 - Supabase integrations and ORM tools
 
 ## 📊 GitHub Performance
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmednule&theme=radical&hide_border=false&include_all_commits=true&count_private=true" alt="Ahmed Nule GitHub Stats" />  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmednule&theme=radical&hide_border=false" alt="GitHub Streak Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmednule&theme=radical&hide_border=false&layout=compact" alt="Top Languages" />
-</p>
+![Ahmed Nule's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahmednule&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
+
+![GitHub Streak](https://github-streak-stats.herokuapp.com/?user=ahmednule&theme=radical&hide_border=false)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmednule&theme=radical&hide_border=false&layout=compact)
 
 ## 🤝 Let's Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-nule)
