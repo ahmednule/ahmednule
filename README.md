@@ -35,9 +35,6 @@ Currently exploring and enhancing skills in:
 ## 📊 GitHub Performance
 ![Ahmed Nule's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahmednule&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=ahmednule&theme=dark)](https://git.io/streak-stats)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmednule&theme=radical&hide_border=false&layout=compact)
-
 ## 🤝 Let's Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-nule)
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@ahmednule)
@@ -47,3 +44,4 @@ Currently exploring and enhancing skills in:
 I'm passionate about mentoring aspiring developers and creating innovative tech solutions. Always open to collaboration and learning!
 
 ---
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=ahmednule&theme=dark" alt="GitHub Streak" /></a>
