@@ -4,8 +4,7 @@
 I'm a passionate **Frontend Developer** specializing in creating innovative web applications and AI-powered solutions. Currently working at **Goymarey** (Your Vision, Our Code) on impactful projects that transform digital experiences.
 
 ## 🚀 Current Work
-- **Frontend Developer** at Goymarey (1-year contract)
-- Developing **AgriGuide**: An AI-powered real-time farming solution
+- **Frontend Developer** at Goymarey
 - Building **Smart-Life**: An intelligent ride-booking and vehicle tracking system
 
 ## 💻 Tech Stack
@@ -49,5 +48,3 @@ Currently exploring and enhancing skills in:
 I'm passionate about mentoring aspiring developers and creating innovative tech solutions. Always open to collaboration and learning!
 
 ---
-
-[![Visitor Count](https://visitcount.itsvg.in/api?id=ahmednule&icon=0&color=12)](https://visitcount.itsvg.in)
