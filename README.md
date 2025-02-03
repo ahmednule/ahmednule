@@ -5,7 +5,6 @@ I'm a passionate **Frontend Developer** specializing in creating innovative web 
 
 ## 🚀 Current Work
 - **Frontend Developer** at Goymarey
-- Building **Smart-Life**: An intelligent ride-booking and vehicle tracking system
 
 ## 💻 Tech Stack
 ### Languages & Frameworks
