@@ -24,6 +24,12 @@ I'm a passionate **Frontend Developer** specializing in creating innovative web 
 - **Mobile:** Flutter, Dart
 - **Data & APIs:** Prisma, Sequelize, PostgreSQL, Chart.js
 
+### UI/UX Designs
+- Figma
+- Excalidraw.
+- Material UI
+- Gemini Brainstorming Model
+
 ## 🌱 Learning & Growth
 Currently exploring and enhancing skills in:
 - Advanced TypeScript techniques
