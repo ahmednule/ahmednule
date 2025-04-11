@@ -29,6 +29,7 @@ I'm a passionate **Frontend Developer** specializing in creating innovative web 
 - Figma
 - Excalidraw.
 - Material UI
+- Acetenity UI
 - Gemini Brainstorming Model
 
 ## 🌱 Learning & Growth
