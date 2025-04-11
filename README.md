@@ -22,7 +22,7 @@ I'm a passionate **Frontend Developer** specializing in creating innovative web 
 ### Development & Deployment
 - **Hosting:** Vercel, Render, Netlify, Digital Ocean
 - **Mobile:** Flutter, Dart
-- **Data & APIs:** Prisma, Sequelize, PostgreSQL, Chart.js
+- **Data & APIs:** Prisma, Sequelize, PostgreSQL, Chart.js, Graghql, Apollo Server, Apollo-server-express
 
 ### UI/UX Designs
 - Figma
