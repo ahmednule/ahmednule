@@ -1,7 +1,6 @@
-# 👋 Ahmed Nule | Frontend Developer
-
+# 👋 Ahmed Nule | Software Engineer 
 ## About Me
-I'm a passionate **Frontend Developer** specializing in creating innovative web applications and AI-powered solutions. Currently working at **Goymarey** on impactful projects that transform digital experiences.
+I'm a passionate **Software Engineer** specializing in creating innovative web applications and AI-powered solutions. Currently working at **Goymarey** on impactful projects that transform digital experiences.
 
 ## 🚀 Current Work
 - **Frontend Developer** at Goymarey Enterprise
