@@ -11,6 +11,7 @@ import TypeScript from "/public/assets/images/typescript.svg";
 import Tailwind from "/public/assets/images/tailwind.svg";
 import HeroUI from "/public/assets/images/heroui.svg";
 import AceternityUI from "/public/assets/images/aceternity.webp";
+import plp from "/public/assets/images/plp.webp";
 import Zod from "/public/assets/images/zod.svg";
 import AuthJS from "/public/assets/images/authjs.svg";
 import Prisma from "/public/assets/images/prisma.svg";
@@ -26,14 +27,13 @@ import Git from "/public/assets/images/git.svg";
 import GitHub from "/public/assets/images/github.svg";
 import Vite from "/public/assets/images/vite.svg";
 import Claude from "/public/assets/images/claude.svg";
-import IlabAfrica from "/public/assets/images/ilabafrica.jpg";
-import Trinetium from "/public/assets/images/trinetium.jpeg";
-import ThomsonReuters from "/public/assets/images/thomsonreuters.png";
+import Goymarey from "/public/assets/images/Goymarey.png";
+import acorn from "/public/assets/images/acorn.png";
 import { StaticImageData } from "next/image";
-import Yoonka from "/public/assets/images/yoonka.jpeg";
-import Strathmore from "/public/assets/images/strathmore.jpeg";
+import wesnet from "/public/assets/images/wesnet.webp";
+import TNNP from "/public/assets/images/TNNP.png"
 import GreatLearning from "/public/assets/images/greatlearning.jpeg";
-import SoloLearn from "/public/assets/images/sololearn.jpeg";
+import alx from "/public/assets/images/alx.svg";
 import Cinemania from "/public/assets/images/cinemania.png";
 import CinemanieLaptop from "/public/assets/images/cinemania-laptop.png";
 import Portfolio from "/public/assets/images/portfolio.png";
@@ -598,97 +598,70 @@ export const EXPERIENCE: {
   companyLogo: StaticImageData;
 }[] = [
   {
-    title: "Front-end Developer",
-    type: "Part-Time",
-    description: "To be updated",
-    company: "Thomson Reuters",
-    startDate: new Date(2024, 9),
-    companyLogo: ThomsonReuters,
+    title: "IT Internship",
+    type: "Full-Time",
+    description: "Completed a three-month internship at Acorn Holdings Limited, where I collaborated with a talented team of IT interns to develop an automated Customer Satisfaction Survey (C-SAT) for QWETU hostels",
+    company: "Acorn Holdings Limited",
+    startDate: new Date(2023, 2),
+    endDate: new Date(2023, 5),
+    companyLogo: acorn,
+  },
+  {
+    title: "IT Internship",
+    type: "Full-Time",
+    description: "Completed a three-month internship at Wesnet Limited, during my time at Wesnet, I gained valuable experience in installing and troubleshooting CCTV systems, as well as installing fire alarms and smoke detectors. This hands-on work allowed me to develop practical skills in these important security and safety technologies.",
+    company: "Wesnet",
+    startDate: new Date(2024, 2),
+    endDate: new Date(2024, 5),
+    companyLogo: wesnet,
   },
   {
     title: "Front-end Developer",
-    type: "Part-Time",
-    description: "To be updated",
-    company: "Yoonka",
-    startDate: new Date(2024, 9),
-    companyLogo: Yoonka,
-  },
-  {
-    title: "Front-end Developer",
-    type: "Internship",
+    type: "Full-Time",
     description:
-      "Collaborated adeptly with UI/UX designers and fellow engineers to craft clean, high-performance front-end web solutions. Key contributions to projects like Adapta, SSAMS, Digital Learning, and Next Events. Recognized as the Lead Intern, entrusted with independent design responsibilities due to a trusted sense of aesthetic.",
-    company: "@iLabAfrica",
-    startDate: new Date(2023, 1),
-    endDate: new Date(2023, 7),
-    companyLogo: IlabAfrica,
-  },
-  {
-    title: "Front-end Developer",
-    type: "Internship",
-    description:
-      "Developed aesthetically pleasing UI components for the web, integrating dynamic features such as drag and drop, and seamlessly incorporated APIs using Next.js and Express. Recognized for achieving high performance and receiving praise for design excellence.",
-    company: "Trinetium DMCC",
-    startDate: new Date(2022, 6),
-    endDate: new Date(2022, 9),
-    companyLogo: Trinetium,
+      "Developed aesthetically pleasing UI components for the web, integrating dynamic features such as drag and drop, and seamlessly incorporated APIs using Next.js, React and Express, Apollo-Server including graphql",
+    company: "Goymarey",
+    startDate: new Date(2024, 11),
+    companyLogo: Goymarey,
   },
 ];
 
 export const CERTIFICATIONS = [
   {
-    title: "Diploma in Business Information Technology",
-    organization: "Strathmore Institute",
-    year: "2023",
+    title: "Diploma in Information Communication & Technology",
+    organization: "The Nairobi National poly",
+    year: "2025",
     file: "Diploma_Certificate",
     description:
-      "Graduated with distinction and honored as the Best Student in the course. Mastered fundamental Business concepts and advanced Information Technology topics. Developed a robust foundation in programming, database management, data structures, networking, and web development, making me a well-rounded and highly capable professional ready to tackle complex challenges in the tech industry.",
-    logo: Strathmore,
+      "Graduated with distinction and honored as the Best Student in the course. Mastered fundamental of ICT Concepts and advanced Information Technology topics. Developed a robust foundation in programming, database management, data structures, networking, and web development, making me a well-rounded and highly capable professional ready to tackle complex challenges in the tech industry.",
+    logo: TNNP,
   },
   {
-    title: "Front End Developer - HTML",
-    organization: "Great Learning Academy",
-    year: "2023",
+    title: "Software Engineering",
+    organization: "Africa Leadership Experience",
+    year: "2024",
     file: "HTML",
     description:
-      "Equipped me with the foundational skills to create well-structured and accessible websites, setting a strong base for advanced front-end development.",
-    logo: GreatLearning,
+      "Equipped me with the foundational skills to create well-structured and accessible websites and systems, setting a strong base for advanced Software Engineering Jobs.",
+    logo: alx,
   },
   {
-    title: "Front End Developer - CSS",
-    organization: "Great Learning Academy",
-    year: "2023",
-    file: "CSS",
+    title: "Software Development Scholarship",
+    organization: "Power Learn Project",
+    year: "2024",
+    file: "plp",
     description:
-      "Specialized in CSS to create visually appealing and responsive web designs. Mastered modern styling techniques, ensuring sleek and professional website aesthetics.",
-    logo: GreatLearning,
+      "Specialized in backend development, learned how to use express to create and maintain Nodejs powered applications.",
+    logo: plp,
   },
   {
-    title: "Introduction to JavaScript",
+    title: "Introduction UI/UX",
     organization: "Great Learning Academy",
-    year: "2023",
+    year: "2025",
     file: "JS",
     description:
-      "Acquired foundational JavaScript skills, enabling dynamic and interactive web content. Developed a solid understanding of core concepts, setting the stage for advanced programming and application development.",
+      "Acquired foundational UI/UX skills enabling me to be able to craft designs better, that is from a user experience and not a developer perspective.",
     logo: GreatLearning,
-  },
-  {
-    title: "React.js Tutorial",
-    organization: "Great Learning Academy",
-    year: "2023",
-    file: "REACT",
-    description:
-      "Gained expertise in building efficient and dynamic web applications by utilizing React's component-based architecture and state management.",
-    logo: GreatLearning,
-  },
-  {
-    title: "Web Development",
-    organization: "SoloLearn",
-    year: "2023",
-    file: "Web_Development",
-    description:
-      "Completed a comprehensive web development course on SoloLearn, mastering essential skills in HTML, CSS, and JavaScript. Developed proficiency in front-end, ready to tackle real-world web projects with confidence.",
-    logo: SoloLearn,
   },
 ];
 
