@@ -10,12 +10,12 @@ export const SOCIAL_LINKS = [
   {
     name: "Github",
     icon: faGithub,
-    path: "https://www.github.com/ahmedlukman",
+    path: "https://www.github.com/ahmednule",
   },
   {
     name: "LinkedIn",
     icon: faLinkedin,
-    path: "https://www.linkedin.com/in/ahmedlukman",
+    path: "https://www.linkedin.com/in/ahmednule",
   },
 ];
 

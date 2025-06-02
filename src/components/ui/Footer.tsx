@@ -27,7 +27,7 @@ const Footer = () => {
           </Button>
         ))}
       </div>
-      <p>&copy; {new Date().getFullYear()} Ahmed Lukman.</p>
+      <p>&copy; {new Date().getFullYear()} Ahmed Nule.</p>
     </footer>
   );
 };
