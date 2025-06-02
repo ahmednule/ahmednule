@@ -5,9 +5,9 @@ import PageWrapper from "@/components/wrappers/PageWrapper";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ahmed Lukman | Projects",
+  title: "Ahmed Nule | Projects",
   description:
-    "A showcase of projects and work completed by Ahmed Lukman, highlighting skills and achievements.",
+    "A showcase of projects and work completed by Ahmed Nule, highlighting skills and achievements.",
 };
 
 const ProjectsPage = () => {

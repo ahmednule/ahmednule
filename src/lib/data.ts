@@ -34,8 +34,8 @@ import wesnet from "/public/assets/images/wesnet.webp";
 import TNNP from "/public/assets/images/TNNP.png"
 import GreatLearning from "/public/assets/images/greatlearning.jpeg";
 import alx from "/public/assets/images/alx.svg";
-import Cinemania from "/public/assets/images/cinemania.png";
-import CinemanieLaptop from "/public/assets/images/cinemania-laptop.png";
+// import Cinemania from "/public/assets/images/cinemania.png";
+import agriguide from "/public/assets/images/agriguide.png";
 import Portfolio from "/public/assets/images/portfolio.png";
 import { faExclamationTriangle, faLightbulb, faThumbsUp, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { ProjectStatus, type TProjectStatus } from "./constants";
@@ -726,16 +726,16 @@ type Project = {
 export const PROJECTS: Project[] = [
   {
     overview: {
-      title: "Cinemania",
+      title: "AgriGuide",
       description:
-        "Discover and interact in a world of movies and TV shows at your fingertips! Dive into synopsis, rating and more in cinemania today!",
-      image: CinemanieLaptop,
+        "Agriguide is an AI-driven platform designed to assist users in identifying diseases and pests affecting plants. By simply uploading an image of a plant, the system leverages AI models to analyze the image and provide accurate feedback on what type of disease or pest is impacting the plant.",
+      image: agriguide,
       site: "https://cinemania-ahmedlukman.vercel.app",
       status: ProjectStatus.pending,
       source: "https://github.com/AhmedLukman/Cinemania",
       startDate: "2024-06",
     },
-    image: Cinemania,
+    image: agriguide,
     route: "/projects/cinemania",
     slug: "cinemania",
     features: [
