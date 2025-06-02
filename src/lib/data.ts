@@ -36,7 +36,7 @@ import GreatLearning from "/public/assets/images/greatlearning.jpeg";
 import alx from "/public/assets/images/alx.svg";
 // import Cinemania from "/public/assets/images/cinemania.png";
 import agriguide from "/public/assets/images/agriguide.png";
-import Portfolio from "/public/assets/images/portfolio.png";
+import diabeteskenya from "/public/assets/images/diabeteskenya.png";
 import { faExclamationTriangle, faLightbulb, faThumbsUp, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { ProjectStatus, type TProjectStatus } from "./constants";
 
@@ -730,9 +730,9 @@ export const PROJECTS: Project[] = [
       description:
         "Agriguide is an AI-driven platform designed to assist users in identifying diseases and pests affecting plants. By simply uploading an image of a plant, the system leverages AI models to analyze the image and provide accurate feedback on what type of disease or pest is impacting the plant.",
       image: agriguide,
-      site: "https://cinemania-ahmedlukman.vercel.app",
+      site: "https://agriguide-sys.vercel.app/",
       status: ProjectStatus.pending,
-      source: "https://github.com/AhmedLukman/Cinemania",
+      source: "https://github.com/ahmednule/AgriGuide",
       startDate: "2024-06",
     },
     image: agriguide,
@@ -830,17 +830,16 @@ export const PROJECTS: Project[] = [
   },
   {
     overview: {
-      title: "Portfolio",
+      title: "DiabetesCare Kenya",
       description:
-        "My personal portfolio website where I showcase who I am, my diverse skills, innovative projects and more. Dive into it to see how I transform ideas into digital masterpieces!",
-      image: Portfolio,
-      site: "https://portfolio-ahmedlukman.vercel.app",
-      source: "https://github.com/AhmedLukman/Portfolio",
+        "DiabetesCare Kenya is a comprehensive web-based platform designed to empower Kenyans with diabetes to better manage their condition through real-time monitoring, personalized insights, and AI-powered support.",
+      image: diabeteskenya,
+      site: "https://ahmednule.vercel.app",
+      source: "https://github.com/ahmednule/diabetes-care-kenya",
       status: ProjectStatus.pending,
-      startDate: "2024-06",
-      endDate: "2024-07",
+      startDate: "2025-03",
     },
-    image: Portfolio,
+    image: diabeteskenya,
     route: "/projects/portfolio",
     slug: "portfolio",
     features: [
