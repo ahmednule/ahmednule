@@ -12,8 +12,8 @@ const Introduction = () => {
       <div className="md:basis-1/2 self-center">
         <p>
           I&apos;m a{" "}
-          <strong className="purple-gradient"> modern developer </strong>
-          with a distinguished Diploma in Business Information Technology{" "}
+          <strong className="purple-gradient"> modern Software Engineer</strong>
+          with a distinguished Diploma in Information Communication & Technology{" "}
           <FontAwesomeIcon icon={faMedal} /> Beyond academic excellence, I
           possess a rich tapestry of{" "}
           <Link
@@ -33,7 +33,7 @@ const Introduction = () => {
           >
             recognition
           </Link>{" "}
-          in various platforms, including national media. My unwavering
+          in various platforms, including The Nairobi National Poly Youtube Channel. My unwavering
           dedication to mastering new skills and solving complex problems fuels
           my passion for programming, making me an ideal candidate anywhere.
         </p>
