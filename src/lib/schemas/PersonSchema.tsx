@@ -7,27 +7,27 @@ export default function PersonSchema() {
         {
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "Ahmed Lukman",
-          "url": "https://ahmedlukman.dev",
-          "jobTitle": "Full Stack Developer",
+          "name": "Ahmed Nule",
+          "url": "https://ahmednule.vercel.app",
+          "jobTitle": "Software Engineer",
           "sameAs": [
-            "https://www.linkedin.com/in/ahmedlukman",
-            "https://www.github.com/ahmedlukman"
+            "https://www.linkedin.com/in/ahmednule",
+            "https://www.github.com/ahmednule"
           ],
           "knowsAbout": ["React", "Next.js", "JavaScript", "TypeScript", "UI/UX Design", "Tailwind CSS", "Web Development", "Front-end Development"],
-          "description": "Modern, experienced full stack developer creating beautiful, high-performance, responsive web applications.",
+          "description": "Modern, experienced Software Engineer creating beautiful, high-performance, responsive web applications.",
           "contactPoint": {
             "@type": "ContactPoint",
-            "url": "https://ahmedlukman.dev/contact",
+            "url": "https://ahmednule.vercel.app/contact",
             "contactType": "professional"
           },
           "alumniOf": {
             "@type": "EducationalOrganization",
-            "name": "Strathmore University"
+            "name": "The Nairobi National Poly"
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://ahmedlukman.dev"
+            "@id": "https://ahmednule.vercel.app"
           }
         }
       `}
