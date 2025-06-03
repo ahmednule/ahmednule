@@ -34,7 +34,6 @@ import wesnet from "/public/assets/images/wesnet.webp";
 import TNNP from "/public/assets/images/TNNP.png"
 import GreatLearning from "/public/assets/images/greatlearning.jpeg";
 import alx from "/public/assets/images/alx.svg";
-// import Cinemania from "/public/assets/images/cinemania.png";
 import agriguide from "/public/assets/images/agriguide.png";
 import diabeteskenya from "/public/assets/images/diabeteskenya.png";
 import { faExclamationTriangle, faLightbulb, faThumbsUp, IconDefinition } from "@fortawesome/free-solid-svg-icons";
