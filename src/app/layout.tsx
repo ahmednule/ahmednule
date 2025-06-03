@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Ahmed Nule | Software Engineer",
   description:
     "Modern, experienced Software Engineer creating beautiful, high-performance, responsive web applications.",
-  authors: [{ name: "Ahmed Nule", url: "https://ahmedlukman.dev" }],
+  authors: [{ name: "Ahmed Nule", url: "https://ahmednule.vercel.app" }],
   creator: "Ahmed Nule",
 };
 
