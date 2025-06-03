@@ -9,7 +9,7 @@ import PageWrapper from "@/components/wrappers/PageWrapper";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Ahmed Lukman | Skills & Experience",
+  title: "About Ahmed Nule| Skills & Experience",
   description: "Learn about my background, skills, and experience as a full stack developer specializing in modern web technologies.",
 };
 
