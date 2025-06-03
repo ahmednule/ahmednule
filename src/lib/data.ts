@@ -4,6 +4,10 @@ import DesignImage from "/public/assets/images/design.jpg";
 import HTML5 from "/public/assets/images/html5.svg";
 import CSS from "/public/assets/images/css.svg";
 import JavaScript from "/public/assets/images/javascript.svg";
+import bellans from "/public/assets/images/bellans.png";
+import coffeehub from "/public/assets/images/coffeehub.png";
+import smartlife from "/public/assets/images/smartlife.png";
+import ujamaa from "/public/assets/images/ujamaa.png";
 import React from "/public/assets/images/react.svg";
 import Next from "/public/assets/images/next.svg";
 import Svelte from "/public/assets/images/svelte.svg";
@@ -735,35 +739,33 @@ export const PROJECTS: Project[] = [
       startDate: "2024-06",
     },
     image: agriguide,
-    route: "/projects/cinemania",
-    slug: "cinemania",
+    route: "/projects/agriguide",
+    slug: "agriguide",
     features: [
-      "Protects user data with cutting-edge encryption and security protocols.",
-      "Comprehensive details for each movie, TV show, and person, including cast, crew, trailers, reviews, and ratings.",
-      "A real-time feed of trending, popular and upcoming films, ensuring users are always up-to-date with the latest content.",
-      "Secure login and registration with options for social media authentication to streamline the sign-up process.",
-      "Optimized performance to ensure quick loading times for all pages and content, providing a smooth user experience.",
-      "Allow users to create and manage favorite collections for quick access.",
-      "Advanced search functionality with multiple filters (genre, year, rating, etc.) to help users find exactly what they’re looking for.",
-      "A platform for users to leave reviews, fostering a community of movie and TV enthusiasts.",
-      "Easy, engaging and interactive user interface.",
-      "A fully responsive design that provides a seamless experience across desktops, tablets, and mobile devices.",
+      "AI-powered plant disease and pest identification through image analysis.",
+      "Instant feedback and diagnosis for plant health issues.",
+      "User-friendly interface for easy image uploading and analysis.",
+      "Comprehensive database of plant diseases and pests.",
+      "Expert recommendations for treatment and prevention.",
+      "Real-time analysis with high accuracy rates.",
+      "Mobile-responsive design for field use.",
+      "Secure image processing and data protection.",
     ],
     caseStudy: [
       {
         ...problemCaseStudy,
         description:
-          "Despite the abundance of streaming platforms like Netflix, users often struggle to find a centralized hub that provides detailed, real-time information on a wide array of films and celebrities across multiple sources in an efficient manner. These platforms usually focus on streaming, leaving a gap for users who want comprehensive details regarding the industry and an interactive community experience that goes beyond streaming alone.",
+          "Farmers and plant enthusiasts often struggle to identify diseases and pests affecting their crops and plants, leading to poor harvests and economic losses. Traditional identification methods require expert knowledge or costly consultations, making it difficult for small-scale farmers to access timely and accurate plant health diagnostics.",
       },
       {
         ...solutionCaseStudy,
         description:
-          "Leveraging the TMDB API to build a web app that offer an all-encompassing entertainment hub including detailed information on movies, TV shows, and celebrities. It provides users with a holistic view of the entertainment landscape that transcends the limitations of individual streaming platforms.",
+          "AgriGuide leverages cutting-edge AI and machine learning technologies to provide instant plant disease and pest identification through simple image uploads. The platform democratizes access to expert-level plant diagnostics, making it available to anyone with a smartphone or camera.",
       },
       {
         ...outcomeCaseStudy,
         description:
-          "Cinemania revolutionizes the way users discover and interact with entertainment content by providing a unique, all-in-one entertainment hub. This comprehensive approach boosts user engagement and satisfaction, positioning Cinemania as the premier platform for entertainment enthusiasts. Users experience reduced search times and increased satisfaction, making content discovery more efficient and enjoyable.",
+          "AgriGuide empowers farmers and plant enthusiasts with instant, accurate plant health diagnostics, reducing crop losses and improving agricultural productivity. The platform bridges the gap between traditional farming and modern technology, making expert plant care accessible to everyone.",
       },
     ],
     techStack: [
@@ -776,12 +778,94 @@ export const PROJECTS: Project[] = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       },
       {
-        alt: "HTML5",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+        alt: "TypeScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
       },
       {
-        alt: "CSS",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        alt: "Python",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+      },
+      {
+        alt: "TensorFlow",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
+      },
+      {
+        alt: "Tailwind CSS",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+    metrics: [
+      {
+        alt: "Performance",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/rocket.png",
+        score: "92",
+      },
+      {
+        alt: "Accessibility",
+        src: "https://img.icons8.com/ios-filled/50/cbd5e1/access-for-blind.png",
+        score: "98",
+      },
+      {
+        alt: "Best Practices",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/medal.png",
+        score: "95",
+      },
+      {
+        alt: "SEO",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/search--v1.png",
+        score: "90",
+      },
+    ],
+  },
+  {
+    overview: {
+      title: "SmartLife",
+      description:
+        "Smart-Life is a Next.js project that aims to revolutionize local transport by offering an AI-powered tracking and navigation web app, making city life easier and more convenient with on-demand ride sharing and predictive routing.",
+      image: smartlife, 
+      site: "https://smart-life-five.vercel.app/",
+      status: ProjectStatus.pending,
+      source: "https://github.com/ahmednule/smart-life",
+      startDate: "2024-08",
+    },
+    image: smartlife,
+    route: "/projects/smartlife",
+    slug: "smartlife",
+    features: [
+      "On-demand ride sharing for convenient booking from home.",
+      "AI-powered predictive routing to find optimal routes and save fuel.",
+      "Smart dispatching system to notify drivers of nearby passengers.",
+      "Comprehensive driver dashboard for tracking peak client times.",
+      "High-quality, responsive design for seamless user experience.",
+      "Real-time tracking and navigation capabilities.",
+      "Machine learning algorithms that improve with more data input.",
+      "Efficient matching system between drivers and passengers.",
+    ],
+    caseStudy: [
+      {
+        ...problemCaseStudy,
+        description:
+          "Urban transportation faces significant challenges with unreliable local transport systems, long waiting times, and inefficient routing. Passengers struggle to find available rides while drivers waste time and fuel searching for customers, leading to increased costs and reduced efficiency in city transportation.",
+      },
+      {
+        ...solutionCaseStudy,
+        description:
+          "SmartLife leverages AI-powered algorithms to create an intelligent transportation platform that connects passengers with drivers efficiently. The system uses predictive routing and smart dispatching to optimize routes, reduce waiting times, and improve the overall transportation experience for both users and drivers.",
+      },
+      {
+        ...outcomeCaseStudy,
+        description:
+          "SmartLife transforms urban mobility by providing a reliable, efficient, and AI-driven transportation solution. The platform reduces wait times, optimizes fuel consumption, and creates a seamless experience that benefits both passengers and drivers, ultimately making city life more convenient and sustainable.",
+      },
+    ],
+    techStack: [
+      {
+        alt: "Next.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      },
+      {
+        alt: "React.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       },
       {
         alt: "TypeScript",
@@ -792,23 +876,199 @@ export const PROJECTS: Project[] = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
-        alt: "Auth.js",
-        src: "/assets/images/authjs.svg",
+        alt: "Node.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
       },
       {
-        alt: "Prisma",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg",
-      },
-      {
-        alt: "PostgreSQL",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+        alt: "MongoDB",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
       },
     ],
     metrics: [
       {
         alt: "Performance",
         src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/rocket.png",
-        score: "90",
+        score: "88",
+      },
+      {
+        alt: "Accessibility",
+        src: "https://img.icons8.com/ios-filled/50/cbd5e1/access-for-blind.png",
+        score: "95",
+      },
+      {
+        alt: "Best Practices",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/medal.png",
+        score: "92",
+      },
+      {
+        alt: "SEO",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/search--v1.png",
+        score: "85",
+      },
+    ],
+  },
+  {
+    overview: {
+      title: "CoffeeHub",
+      description:
+        "A transparent and efficient platform connecting discerning buyers with premium coffee growers. CoffeeHub provides a comprehensive solution for the coffee industry, ensuring quality, transparency, and efficiency from farm to cup with complete traceability.",
+      image: coffeehub, 
+      site: "https://coffee-hub-sys.vercel.app/",
+      status: ProjectStatus.pending,
+      source: "https://github.com/ahmednule/coffee-hub",
+      startDate: "2024-10",
+    },
+    image: coffeehub,
+    route: "/projects/coffeehub",
+    slug: "coffeehub",
+    features: [
+      "Complete sales catalogue with lot tracking, marks, grades, and real-time pricing.",
+      "Multi-user platform for growers, buyers, brokers, warehouse operators, and roasters.",
+      "Quality certification tracking for RA, CAFÉ, FLO, CP, and EUDR standards.",
+      "Origin transparency with complete traceability from farm to cup.",
+      "Elevation, variety, and process details for each coffee lot.",
+      "Tailored tools and insights for different coffee professionals.",
+      "Real-time marketplace for discovering exceptional coffee lots.",
+      "Comprehensive certification and quality assurance system.",
+    ],
+    caseStudy: [
+      {
+        ...problemCaseStudy,
+        description:
+          "The coffee industry lacks transparency and efficient connections between growers and buyers. Coffee professionals struggle with fragmented systems, limited traceability, and difficulty in verifying quality certifications, leading to inefficiencies and reduced trust in the supply chain.",
+      },
+      {
+        ...solutionCaseStudy,
+        description:
+          "CoffeeHub creates a comprehensive marketplace that connects all stakeholders in the coffee industry through a transparent, efficient platform. The system provides complete traceability, quality certification tracking, and tailored tools for each type of coffee professional, from growers to roasters.",
+      },
+      {
+        ...outcomeCaseStudy,
+        description:
+          "CoffeeHub revolutionizes the coffee industry by providing unprecedented transparency and efficiency in the supply chain. The platform empowers coffee professionals with better tools, increased trust through traceability, and improved market access, ultimately benefiting everyone from growers to consumers.",
+      },
+    ],
+    techStack: [
+      {
+        alt: "Next.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      },
+      {
+        alt: "React.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      },
+      {
+        alt: "TypeScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        alt: "Tailwind CSS",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+      {
+        alt: "PostgreSQL",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+      },
+      {
+        alt: "Prisma",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg",
+      },
+    ],
+    metrics: [
+      {
+        alt: "Performance",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/rocket.png",
+        score: "94",
+      },
+      {
+        alt: "Accessibility",
+        src: "https://img.icons8.com/ios-filled/50/cbd5e1/access-for-blind.png",
+        score: "96",
+      },
+      {
+        alt: "Best Practices",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/medal.png",
+        score: "98",
+      },
+      {
+        alt: "SEO",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/search--v1.png",
+        score: "92",
+      },
+    ],
+  },
+  {
+    overview: {
+      title: "Ujamaa Foundation",
+      description:
+        "Ujamaa Foundation is a non-profit, community-based, and youth-led organization website that empowers communities in North Eastern Kenya through sustainable development initiatives including peace building, education support, environmental restoration, and capacity building.",
+      image: ujamaa, 
+      site: "https://ujamaa-foundation.vercel.app/",
+      status: ProjectStatus.completed,
+      source: "https://github.com/ahmednule/ujamaa-foundation",
+      startDate: "2024-12",
+    },
+    image: ujamaa,
+    route: "/projects/ujamaa",
+    slug: "ujamaa",
+    features: [
+      "Comprehensive information about foundation programs and initiatives.",
+      "Peace building and community cohesion program details.",
+      "Education sector support and scholarship information.",
+      "Environmental restoration and natural resource management showcase.",
+      "Training and capacity building program highlights.",
+      "Latest news and activities updates.",
+      "Community impact metrics and achievements display.",
+      "Contact and collaboration facilitation system.",
+    ],
+    caseStudy: [
+      {
+        ...problemCaseStudy,
+        description:
+          "Marginalized communities in northern Kenya face significant challenges including limited access to education, environmental degradation, community conflicts, and lack of development opportunities. These communities needed a platform to showcase their work and connect with supporters and partners.",
+      },
+      {
+        ...solutionCaseStudy,
+        description:
+          "Created a comprehensive website for Ujamaa Foundation that effectively communicates their mission, showcases their six strategic programs, highlights community impact, and provides easy ways for supporters to engage. The platform serves as a digital hub for community empowerment and sustainable development initiatives.",
+      },
+      {
+        ...outcomeCaseStudy,
+        description:
+          "The website successfully represents Ujamaa Foundation's commitment to community empowerment, providing a professional platform that enhances their visibility, credibility, and ability to attract partnerships and support for their vital community development work in northern Kenya.",
+      },
+    ],
+    techStack: [
+      {
+        alt: "Next.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      },
+      {
+        alt: "React.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      },
+      {
+        alt: "TypeScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        alt: "Tailwind CSS",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+      {
+        alt: "HTML5",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+      },
+      {
+        alt: "CSS",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+      },
+    ],
+    metrics: [
+      {
+        alt: "Performance",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/rocket.png",
+        score: "96",
       },
       {
         alt: "Accessibility",
@@ -823,7 +1083,97 @@ export const PROJECTS: Project[] = [
       {
         alt: "SEO",
         src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/search--v1.png",
+        score: "98",
+      },
+    ],
+  },
+  {
+    overview: {
+      title: "Bellans Mental Health App",
+      description:
+        "SPL Mental Health System is your sanctuary for emotional growth and healing. The platform provides 24/7 mental health resources, personalized self-care plans, and connects users with certified mental health professionals in a secure, judgment-free environment.",
+      image: bellans, 
+      site: "https://bellans-mental-health-app.vercel.app/",
+      status: ProjectStatus.pending,
+      source: "https://github.com/ahmednule/bellans-mental-health",
+      startDate: "2024-11",
+    },
+    image: bellans,
+    route: "/projects/bellans",
+    slug: "bellans",
+    features: [
+      "24/7 access to curated mental health resources and materials.",
+      "Personalized self-care routines and tailored articles.",
+      "Secure, encrypted, and judgment-free environment for users.",
+      "Expert matching system to connect with certified professionals.",
+      "Comprehensive mental health articles and educational content.",
+      "Safe space for emotional growth and healing journey.",
+      "User-friendly interface promoting mental wellness accessibility.",
+      "Professional support network for comprehensive care.",
+    ],
+    caseStudy: [
+      {
+        ...problemCaseStudy,
+        description:
+          "Mental health support is often inaccessible, expensive, or comes with stigma attached. Many people struggle to find reliable mental health resources, personalized care plans, or connections to qualified professionals, especially during times when they need immediate support outside traditional office hours.",
+      },
+      {
+        ...solutionCaseStudy,
+        description:
+          "Bellans Mental Health App creates a comprehensive digital sanctuary that provides 24/7 access to mental health resources, personalized care plans, and professional connections. The platform removes barriers to mental health support by offering a secure, accessible, and judgment-free environment for healing and growth.",
+      },
+      {
+        ...outcomeCaseStudy,
+        description:
+          "The platform democratizes mental health support by making professional resources and personalized care accessible anytime, anywhere. Users benefit from continuous support, tailored interventions, and professional connections, contributing to better mental health outcomes and reduced stigma around seeking help.",
+      },
+    ],
+    techStack: [
+      {
+        alt: "Next.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      },
+      {
+        alt: "React.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      },
+      {
+        alt: "TypeScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        alt: "Tailwind CSS",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+      {
+        alt: "Node.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        alt: "MongoDB",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+      },
+    ],
+    metrics: [
+      {
+        alt: "Performance",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/rocket.png",
+        score: "91",
+      },
+      {
+        alt: "Accessibility",
+        src: "https://img.icons8.com/ios-filled/50/cbd5e1/access-for-blind.png",
         score: "100",
+      },
+      {
+        alt: "Best Practices",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/medal.png",
+        score: "96",
+      },
+      {
+        alt: "SEO",
+        src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/search--v1.png",
+        score: "88",
       },
     ],
   },
@@ -839,30 +1189,33 @@ export const PROJECTS: Project[] = [
       startDate: "2025-03",
     },
     image: diabeteskenya,
-    route: "/projects/portfolio",
-    slug: "portfolio",
+    route: "/projects/diabetescare",
+    slug: "diabetescare",
     features: [
-      "Enjoy a responsive and seamless browsing experience across all devices.",
-      "Top-notch SEO practices boosting visibility thus easy discovery in search engines.",
-      "Effortlessly find what you are looking for with intuitive and user-friendly navigation.",
-      "Dedicated contact form functionality and social media links for easy reach.",
-      "Clean, stylish, and visually appealing custom design.",
+      "Real-time diabetes monitoring and tracking capabilities.",
+      "Personalized insights and AI-powered health recommendations.",
+      "Comprehensive diabetes management tools and resources.",
+      "User-friendly interface for easy health data input and tracking.",
+      "Educational content about diabetes care and management.",
+      "Progress tracking and health goal setting features.",
+      "Integration with healthcare provider recommendations.",
+      "Secure health data management and privacy protection.",
     ],
     caseStudy: [
       {
         ...problemCaseStudy,
         description:
-          "I needed a platform to showcase my diverse technical skills, innovative projects, and professional achievements that highlights my expertise and attracts potential employers or clients.",
+          "Diabetes management in Kenya faces significant challenges including limited access to specialized care, lack of continuous monitoring tools, and insufficient patient education. Many Kenyans with diabetes struggle to maintain proper blood sugar levels and track their health progress effectively.",
       },
       {
         ...solutionCaseStudy,
         description:
-          "I designed and developed a sleek, modern portfolio website using Next.js for its powerful performance and SEO capabilities, React for a dynamic user interface, UI libraries for beautiful and interactive animations.",
+          "DiabetesCare Kenya provides a comprehensive digital platform that empowers users with real-time monitoring, AI-powered insights, and personalized diabetes management tools. The platform bridges the gap between patients and quality diabetes care through technology and education.",
       },
       {
         ...outcomeCaseStudy,
         description:
-          "The website effectively showcases my skills and projects in a professional and engaging manner. It has received commendations for its performance, intuitive design and smooth navigation, reflecting my attention to detail and commitment to user experience.",
+          "The platform empowers Kenyans with diabetes to take control of their health through better monitoring, education, and AI-powered insights. This leads to improved health outcomes, better diabetes management, and enhanced quality of life for users across Kenya.",
       },
     ],
     techStack: [
@@ -875,50 +1228,42 @@ export const PROJECTS: Project[] = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       },
       {
-        alt: "HTML5",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-      },
-      {
-        alt: "CSS",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        alt: "TypeScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
       },
       {
         alt: "Tailwind CSS",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
-        alt: "TypeScript",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        alt: "Python",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
       },
       {
-        src: "/assets/images/aceternity.webp",
-        alt: "Aceternity UI",
-      },
-      {
-        src: "/assets/images/nextui.png",
-        alt: "Next UI",
+        alt: "PostgreSQL",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
       },
     ],
     metrics: [
       {
         alt: "Performance",
         src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/rocket.png",
-        score: "95",
+        score: "89",
       },
       {
         alt: "Accessibility",
         src: "https://img.icons8.com/ios-filled/50/cbd5e1/access-for-blind.png",
-        score: "100",
+        score: "98",
       },
       {
         alt: "Best Practices",
         src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/medal.png",
-        score: "100",
+        score: "94",
       },
       {
         alt: "SEO",
         src: "https://img.icons8.com/ios-glyphs/30/cbd5e1/search--v1.png",
-        score: "100",
+        score: "87",
       },
     ],
   },
