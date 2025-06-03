@@ -15,7 +15,7 @@ export const SOCIAL_LINKS = [
   {
     name: "LinkedIn",
     icon: faLinkedin,
-    path: "https://www.linkedin.com/in/ahmednule",
+    path: "https://www.linkedin.com/in/ahmed-nule-099a26266",
   },
 ];
 

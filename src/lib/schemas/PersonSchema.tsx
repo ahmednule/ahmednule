@@ -11,7 +11,7 @@ export default function PersonSchema() {
           "url": "https://ahmednule.vercel.app",
           "jobTitle": "Software Engineer",
           "sameAs": [
-            "https://www.linkedin.com/in/ahmednule",
+            "https://www.linkedin.com/in/ahmed-nule-099a26266",
             "https://www.github.com/ahmednule"
           ],
           "knowsAbout": ["React", "Next.js", "JavaScript", "TypeScript", "UI/UX Design", "Tailwind CSS", "Web Development", "Front-end Development"],
