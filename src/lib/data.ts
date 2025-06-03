@@ -657,7 +657,7 @@ export const CERTIFICATIONS = [
   {
     title: "Introduction UI/UX",
     organization: "Great Learning Academy",
-    year: "2025",
+    year: "2024",
     file: "JS",
     description:
       "Acquired foundational UI/UX skills enabling me to be able to craft designs better, that is from a user experience and not a developer perspective.",
