@@ -27,6 +27,11 @@ import Copilot from "/public/assets/images/copilot.svg";
 import Vercel from "/public/assets/images/vercel.svg";
 import ESLint from "/public/assets/images/eslint.svg";
 import NPM from "/public/assets/images/npm.svg";
+import apollo from "/public/assets/images/apollo.svg";
+import django from "/public/assets/images/django.svg";
+import express from "/public/assets/images/express.svg";
+import graphql from "/public/assets/images/graphql.svg";
+import node from "/public/assets/images/node.svg";
 import Git from "/public/assets/images/git.svg";
 import GitHub from "/public/assets/images/github.svg";
 import Vite from "/public/assets/images/vite.svg";
@@ -91,6 +96,26 @@ export const FRONT_END_TECHS = [
 ];
 
 export const BACKEND_TECHS = [
+  {
+    name:"NodeJs",
+    src:node
+  },
+  {
+    name:"Express",
+    src:express
+  },
+  {
+    name:"Apollo Sever",
+    src:apollo
+  },
+  {
+    name:"Grapgql",
+    src:graphql
+  },
+  {
+    name:"Django",
+    src:django
+  },
   {
     name: "Auth.js",
     src: AuthJS,
