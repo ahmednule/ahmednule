@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMedal } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import { Link } from "@heroui/link";
 import SectionWrapper from "../../wrappers/SectionWrapper";
@@ -12,9 +10,11 @@ const Introduction = () => {
       <div className="md:basis-1/2 self-center">
         <p>
           I&apos;m a{" "}
-          <strong className="purple-gradient"> modern Software Engineer</strong>
-          with a distinguished Diploma in Information Communication & Technology{" "}
-          <FontAwesomeIcon icon={faMedal} /> Beyond academic excellence, I
+          <strong className="purple-gradient"> modern Software Engineer </strong>
+          with a distinguished Diploma in Information Communication & Technology. I was recognized as the best student in my course during my graduation year.
+          <br/>
+          <br/>
+           Beyond academic excellence, I
           possess a rich tapestry of{" "}
           <Link
             as={NextLink}
@@ -24,18 +24,10 @@ const Introduction = () => {
           >
             certifications
           </Link>{" "}
-          from top-tier courses and boot-camps, alongside{" "}
-          <Link
-            underline="always"
-            as={NextLink}
-            href="/about#recognition"
-            color="foreground"
-          >
-            recognition
-          </Link>{" "}
-          in various platforms, including The Nairobi National Poly Youtube Channel. My unwavering
-          dedication to mastering new skills and solving complex problems fuels
-          my passion for programming, making me an ideal candidate anywhere.
+          from top-tier courses and boot-camps.
+          <br/>
+          <br/>
+          My unwavering dedication to mastering new skills and solving complex problems fuels my passion for programming, making me an ideal candidate anywhere.
         </p>
       </div>
       <div className="relative md:basis-1/2 h-52 md:h-64">
