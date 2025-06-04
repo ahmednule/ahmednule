@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import {
   faCode,
   faContactBook,
@@ -15,8 +15,14 @@ export const SOCIAL_LINKS = [
   {
     name: "LinkedIn",
     icon: faLinkedin,
-    path: "https://www.linkedin.com/in/ahmed-nule-099a26266",
+    path: "https://www.linkedin.com/in/ahmednule/",
   },
+  {
+    name: "YouTube",
+    icon: faYoutube,
+    path: "https://www.youtube.com/channel/UC-aOibF1oPxUvS3bVvvdMqA",
+  },
+
 ];
 
 export const PAGE_LINKS = [
