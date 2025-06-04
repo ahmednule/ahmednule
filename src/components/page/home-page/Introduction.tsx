@@ -11,7 +11,7 @@ const Introduction = () => {
         <p>
           I&apos;m a{" "}
           <strong className="purple-gradient"> modern Software Engineer </strong>
-          with a distinguished Diploma in Information Communication & Technology. I was recognized as the best student in my course during my graduation year.
+          with a distinguished certification from ALX Africa. I was recognized as the best student in my course during my graduation year, after completing a 3 year course purpuing a course in Information Communication & Technology.
           <br/>
           <br/>
            Beyond academic excellence, I
