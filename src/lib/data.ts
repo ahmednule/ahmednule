@@ -612,7 +612,7 @@ export const EXPERIENCE: {
   {
     title: "IT Internship",
     type: "Full-Time",
-    description: "Completed a three-month internship at Wesnet Limited, during my time at Wesnet, I gained valuable experience in installing and troubleshooting CCTV systems, as well as installing fire alarms and smoke detectors. This hands-on work allowed me to develop practical skills in these important security and safety technologies.",
+    description: "Completed a three-month internship at Wesnet Limited. During my time at Wesnet, I gained valuable experience in installing and troubleshooting CCTV systems, as well as installing fire alarms and smoke detectors. This hands-on work allowed me to develop practical skills in these important security and safety technologies.",
     company: "Wesnet",
     startDate: new Date(2024, 2),
     endDate: new Date(2024, 5),
