@@ -19,7 +19,7 @@ I'm a passionate **Software Engineer** specializing in creating innovative web a
 ### Development & Deployment
 - **Hosting:** Vercel, Render, Netlify, Digital Ocean
 - **Mobile:** React Native
-- **Desktops:** Electro
+- **Desktops:** Electron
 - **Data & APIs:** Prisma,@Prisma/Client Sequelize, PostgreSQL, Chart.js, Graghql, Apollo Server, Apollo-server-express
 
 ### UI/UX Designs
@@ -31,10 +31,7 @@ I'm a passionate **Software Engineer** specializing in creating innovative web a
 
 ## 🌱 Learning & Growth
 Currently exploring and enhancing skills in:
-- Advanced TypeScript techniques
-- Next UI components
-- Flutter mobile development
-- Supabase integrations and ORM tools
+- Web3
 
 ## 📊 GitHub Performance
 ![Ahmed Nule's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahmednule&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
