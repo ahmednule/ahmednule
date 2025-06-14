@@ -1,7 +1,5 @@
 import Image from "next/image";
-import { Link } from "@heroui/link";
 import SectionWrapper from "../../wrappers/SectionWrapper";
-import NextLink from "next/link";
 import ManNearComputerImage from "/public/assets/images/man-near-computer.svg";
 
 const Introduction = () => {
