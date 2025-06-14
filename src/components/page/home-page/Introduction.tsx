@@ -10,7 +10,7 @@ const Introduction = () => {
           I&apos;m a{" "}
           <strong className="purple-gradient"> modern Software Engineer </strong>
           
-I'm a passionate Software Engineer specializing in creating innovative web applications and AI-powered solutions. Currently working at Goymarey on impactful projects that transform digital experiences.
+Iapos;m a{" "}m a passionate Software Engineer specializing in creating innovative web applications and AI-powered solutions. Currently working at Goymarey on impactful projects that transform digital experiences.
         </p>
       </div>
       <div className="relative md:basis-1/2 h-52 md:h-64">
