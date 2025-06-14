@@ -11,23 +11,8 @@ const Introduction = () => {
         <p>
           I&apos;m a{" "}
           <strong className="purple-gradient"> modern Software Engineer </strong>
-          with a distinguished certification from ALX Africa. I was recognized as the best student in my course during my graduation year, after completing a 3 year course purpuing a course in Information Communication & Technology.
-          <br/>
-          <br/>
-           Beyond academic excellence, I
-          possess a rich tapestry of{" "}
-          <Link
-            as={NextLink}
-            underline="always"
-            href="/about#certifications"
-            color="foreground"
-          >
-            certifications
-          </Link>{" "}
-          from top-tier courses and boot-camps.
-          <br/>
-          <br/>
-          My unwavering dedication to mastering new skills and solving complex problems fuels my passion for programming, making me an ideal candidate anywhere.
+          
+I'm a passionate Software Engineer specializing in creating innovative web applications and AI-powered solutions. Currently working at Goymarey on impactful projects that transform digital experiences.
         </p>
       </div>
       <div className="relative md:basis-1/2 h-52 md:h-64">
