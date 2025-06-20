@@ -1,6 +1,6 @@
 # 👋 Ahmed Nule | Software Engineer 
 ## About Me
-I'm a passionate **Software Engineer** specializing in creating innovative web applications and AI-powered solutions. Currently working at **Doing Frelancing Jobs**.
+I'm a passionate **Software Engineer** specializing in creating innovative web applications and AI-powered solutions. Currently w **Doing Frelancing Jobs**, contact me for new opportunities.
 
 ## 🚀 Previous Current Work
 - **Frontend Developer** at Goymarey Enterprise
