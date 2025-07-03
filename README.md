@@ -9,21 +9,25 @@ I'm a passionate **Software Engineer** specializing in creating innovative web a
 
 ### Languages & Frameworks
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)  
-<img src="public/images/php.svg" alt="PHP" width="100" style="margin-right: 10px;" />
-<img src="public/images/laravel.svg" alt="Laravel" width="100" />
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+<img src="public/assets/images/javascript.svg" alt="react" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/react.svg" alt="react" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/next.svg" alt="next" width="100" style="margin-right: 10px;" />
 <img src="public/assets/images/php.svg" alt="PHP" width="100" style="margin-right: 10px;" />
-<img src="public/assets/images/node.svg" alt="Laravel" width="100" />
+<img src="public/assets/images/laravel.svg" alt="Laravel" width="100" />
+<img src="public/assets/images/claude.svg" alt="Laravel" width="100" />  
+<img src="public/assets/images/typescript.svg" alt="ts" width="100" style="margin-right: 10px;" /><img src="public/assets/images/prisma.svg" alt="prisma" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/postgresql.svg" alt="postgresql" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/graphql.svg" alt="graphql" width="100" style="margin-right: 10px;" />
 
 
 
 
 ### Tools & Technologies
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+<img src="public/assets/images/django.svg" alt="django" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/supabase.svg" alt="supabase" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/eslint.svg" alt="eslint" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/git.svg" alt="git" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/react.svg" alt="react" width="100" style="margin-right: 10px;" />
 
 ### Development & Deployment
 - **Hosting:** Vercel, Render, Netlify, Digital Ocean
