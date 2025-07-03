@@ -16,6 +16,8 @@ import Tailwind from "/public/assets/images/tailwind.svg";
 import HeroUI from "/public/assets/images/heroui.svg";
 import AceternityUI from "/public/assets/images/aceternity.webp";
 import plp from "/public/assets/images/plp.webp";
+import php from "/public/assets/images/php.svg";
+import laravel from "/public/assets/images/laravel.svg";
 import Zod from "/public/assets/images/zod.svg";
 import AuthJS from "/public/assets/images/authjs.svg";
 import Prisma from "/public/assets/images/prisma.svg";
@@ -96,6 +98,14 @@ export const FRONT_END_TECHS = [
 ];
 
 export const BACKEND_TECHS = [
+
+  {
+    name:"Laravel",
+    src:laravel
+  },{
+    name:"PHP",
+    src:php,
+  },
   {
     name:"NodeJs",
     src:node
