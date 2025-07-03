@@ -9,25 +9,26 @@ I'm a passionate **Software Engineer** specializing in creating innovative web a
 
 ### Languages & Frameworks
 
-<img src="public/assets/images/javascript.svg" alt="react" width="100" style="margin-right: 10px;" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/javascript.svg" alt="JavaScript" width="100" />
 
-<img src="public/assets/images/react.svg" alt="react" width="100" style="margin-right: 10px;" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/react.svg" alt="React" width="100" />
 
-<img src="public/assets/images/next.svg" alt="next" width="100" style="margin-right: 10px;" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/next.svg" alt="Next.js" width="100" />
 
-<img src="public/assets/images/php.svg" alt="PHP" width="100" style="margin-right: 10px;" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/php.svg" alt="PHP" width="100" />
 
-<img src="public/assets/images/laravel.svg" alt="Laravel" width="100" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/laravel.svg" alt="Laravel" width="100" />
 
-<img src="public/assets/images/claude.svg" alt="Laravel" width="100" />  
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/claude.svg" alt="Claude" width="100" />
 
-<img src="public/assets/images/typescript.svg" alt="ts" width="100" style="margin-right: 10px;" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/typescript.svg" alt="TypeScript" width="100" />
 
-<img src="public/assets/images/prisma.svg" alt="prisma" width="100" style="margin-right: 10px;" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/prisma.svg" alt="Prisma" width="100" />
 
-<img src="public/assets/images/postgresql.svg" alt="postgresql" width="100" style="margin-right: 10px;" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/postgresql.svg" alt="PostgreSQL" width="100" />
 
-<img src="public/assets/images/graphql.svg" alt="graphql" width="100" style="margin-right: 10px;" />
+<img src="https://raw.githubusercontent.com/ahmednule/ahmednule/main/public/assets/images/graphql.svg" alt="GraphQL" width="100" />
+
 
 
 
