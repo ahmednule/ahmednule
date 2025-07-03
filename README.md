@@ -1,16 +1,25 @@
 # 👋 Ahmed Nule | Software Engineer 
 ## About Me
-I'm a passionate **Software Engineer** specializing in creating innovative web applications and AI-powered solutions. Currently w **Doing Frelancing Jobs**, contact me for new opportunities.
+I'm a passionate **Software Engineer** specializing in creating innovative web applications and AI-powered solutions. Currently **Working on shambasync**, contact me for new opportunities.
 
 ## 🚀 Previous Current Work
 - **Frontend Developer** at Goymarey Enterprise
 
 ## 💻 Tech Stack
+
 ### Languages & Frameworks
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)  
+<img src="public/images/php.svg" alt="PHP" width="100" style="margin-right: 10px;" />
+<img src="public/images/laravel.svg" alt="Laravel" width="100" />
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+<img src="public/assets/images/php.svg" alt="PHP" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/node.svg" alt="Laravel" width="100" />
+
+
+
 
 ### Tools & Technologies
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) 
