@@ -29,7 +29,7 @@ I'm a passionate **Software Engineer** specializing in creating innovative web a
 - **Hosting:** Vercel, Render, Netlify, Digital Ocean
 - **Mobile:** React Native
 - **Desktops:** Electron
-- **Data & APIs:** Prisma,@Prisma/Client Sequelize, PostgreSQL, Chart.js, Graghql, Apollo Server, Apollo-server-express
+- **Data & APIs:** Prisma,@Prisma/Client, MySQL, Sequelize, PostgreSQL, Chart.js, Graghql, Apollo Server, Apollo-server-express
 
 ### UI/UX Designs
 - Figma
