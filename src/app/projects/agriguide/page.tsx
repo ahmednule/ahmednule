@@ -7,7 +7,7 @@ export default function ProjectAgriguide() {
       title: "AgriGuide",
       description:
         "Agriguide is an AI-driven platform designed to assist users in identifying diseases and pests affecting plants. By simply uploading an image of a plant, the system leverages AI models to analyze the image and provide accurate feedback on what type of disease or pest is impacting the plant.",
-      image: "/public/assets/images/agriguide.png",
+      image: "public/assets/images/agriguide.png",
       site: "https://agriguide-sys.vercel.app/",
       status: "pending",
       source: "https://github.com/ahmednule/AgriGuide",
