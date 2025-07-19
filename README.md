@@ -9,25 +9,25 @@ I'm a passionate **Software Engineer** specializing in creating innovative web a
 
 ### Languages & Frameworks
 
-<img src="public/assets/images/javascript.svg" alt="react" style="margin-right: 10px;" />
+<img src="public/assets/images/javascript.svg" alt="react" width="100" style="margin-right: 10px;" />
 
-<img src="public/assets/images/react.svg" alt="react" style="margin-right: 10px;" />
+<img src="public/assets/images/react.svg" alt="react" width="100" style="margin-right: 10px;" />
 
-<img src="public/assets/images/next.svg" alt="next"  style="margin-right: 10px;" />
+<img src="public/assets/images/next.svg" alt="next"  width="100" style="margin-right: 10px;" />
 
-<img src="public/assets/images/php.svg" alt="PHP"  style="margin-right: 10px;" />
+<img src="public/assets/images/php.svg" alt="PHP"  width="100" style="margin-right: 10px;" />
 
-<img src="public/assets/images/laravel.svg" alt="Laravel" />
+<img src="public/assets/images/laravel.svg" width="100" alt="Laravel" />
 
-<img src="public/assets/images/claude.svg" alt="Laravel"  /> 
+<img src="public/assets/images/claude.svg" width="100" alt="Laravel"  /> 
 
-<img src="public/assets/images/typescript.svg" alt="ts"style="margin-right: 10px;" />
+<img src="public/assets/images/typescript.svg" alt="ts" width="100" style="margin-right: 10px;" />
 
-<img src="public/assets/images/prisma.svg" alt="prisma"  style="margin-right: 10px;" />
+<img src="public/assets/images/prisma.svg" alt="prisma"  width="100" style="margin-right: 10px;" />
 
-<img src="public/assets/images/postgresql.svg" alt="postgresql" style="margin-right: 10px;" />
+<img src="public/assets/images/postgresql.svg" alt="postgresql" width="100" style="margin-right: 10px;" />
 
-<img src="public/assets/images/graphql.svg" alt="graphql" style="margin-right: 10px;" />
+<img src="public/assets/images/graphql.svg" alt="graphql" width="100" style="margin-right: 10px;" />
 
 
 
