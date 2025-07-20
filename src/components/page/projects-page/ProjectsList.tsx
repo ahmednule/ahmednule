@@ -18,7 +18,7 @@ const ProjectsList = () => {
             <ListItemWrapper key={title} index={index}>
               <CardContainer>
                 <CardBody className="  relative group/card shadow-[0_8px_16px_rgb(0_0_0/0.3)] border border-white/[0.1] w-[22rem] md:w-[23rem] xl:w-[26rem] h-auto rounded-xl p-6   ">
-                  <Link href={route} className="block">
+                  <Link href={route} className="block" target="_blank">
                     <CardItem
                       translateZ="70"
                       className="text-xl font-bold w-full text-slate-200 flex justify-between items-center"

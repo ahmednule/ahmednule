@@ -774,7 +774,7 @@ export const PROJECTS: Project[] = [
       startDate: "2024-06",
     },
     image: agriguide,
-    route: "/projects/agriguide",
+    route:"https://agriguide-sys.vercel.app/",
     slug: "agriguide",
     features: [
       "AI-powered plant disease and pest identification through image analysis.",
