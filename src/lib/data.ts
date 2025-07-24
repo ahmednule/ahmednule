@@ -4,7 +4,7 @@ import DesignImage from "/public/assets/images/design.jpg";
 import HTML5 from "/public/assets/images/html5.svg";
 import CSS from "/public/assets/images/css.svg";
 import JavaScript from "/public/assets/images/javascript.svg";
-import bellans from "/public/assets/images/bellans.png";
+import kwamboka from "/public/assets/images/kwamboka.png"
 import coffeehub from "/public/assets/images/coffeehub.png";
 import smartlife from "/public/assets/images/smartlife.png";
 import ujamaa from "/public/assets/images/ujamaa.png";
@@ -864,7 +864,7 @@ export const PROJECTS: Project[] = [
       startDate: "2024-08",
     },
     image: smartlife,
-    route: "/projects/smartlife",
+    route: "https://smart-life-five.vercel.app/",
     slug: "smartlife",
     features: [
       "On-demand ride sharing for convenient booking from home.",
@@ -954,7 +954,7 @@ export const PROJECTS: Project[] = [
       startDate: "2024-10",
     },
     image: coffeehub,
-    route: "/projects/coffeehub",
+    route: "https://coffee-hub-sys.vercel.app/",
     slug: "coffeehub",
     features: [
       "Complete sales catalogue with lot tracking, marks, grades, and real-time pricing.",
@@ -1044,7 +1044,7 @@ export const PROJECTS: Project[] = [
       startDate: "2024-12",
     },
     image: ujamaa,
-    route: "/projects/ujamaa",
+    route:  "https://ujamaa-foundation.vercel.app/",
     slug: "ujamaa",
     features: [
       "Comprehensive information about foundation programs and initiatives.",
@@ -1124,17 +1124,17 @@ export const PROJECTS: Project[] = [
   },
   {
     overview: {
-      title: "Bellans Mental Health App",
+      title: "Ckwamboka & Company Advocate",
       description:
-        "SPL Mental Health System is your sanctuary for emotional growth and healing. The platform provides 24/7 mental health resources, personalized self-care plans, and connects users with certified mental health professionals in a secure, judgment-free environment.",
-      image: bellans, 
+        "Christabel Kwamboka kinara is an Advocate at Nairobi Law Court.",
+      image: kwamboka, 
       site: "https://bellans-mental-health-app.vercel.app/",
       status: ProjectStatus.pending,
-      source: "https://github.com/ahmednule/bellans-mental-health",
+      source: "https://github.com/ahmednule/ckwamboka.co.ke",
       startDate: "2024-11",
     },
-    image: bellans,
-    route: "/projects/bellans",
+    image: kwamboka,
+    route: "https://www.ckwamboka.co.ke/",
     slug: "bellans",
     features: [
       "24/7 access to curated mental health resources and materials.",
