@@ -68,6 +68,5 @@ Currently exploring and enhancing skills in:
 ## 💡 Fun Fact
 I'm passionate about mentoring aspiring developers and creating innovative tech solutions. Always open to collaboration and learning!
 
-
 ---
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=ahmednule&theme=dark" alt="GitHub Streak" /></a>
