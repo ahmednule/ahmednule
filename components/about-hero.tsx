@@ -31,7 +31,7 @@ export function AboutHero() {
 
           <div className="relative">
             <div className="relative w-full h-96 rounded-2xl overflow-hidden">
-              <Image src="/professional-developer-portrait.png" alt="Ahmed Nule" fill className="object-cover" />
+              <Image src="/images/man-near-computer.svg" alt="Ahmed Nule" fill className="object-cover" />
             </div>
           </div>
         </div>
