@@ -26,7 +26,7 @@ const projects = [
     title: "Ckwamboka and Company Advocates",
     description:
     "Christabel Kwamboka kinara is an Advocate at Nairobi Law Court.",
-    image: "/modern-ecommerce-platform.png",
+    image: "/images/kwamboka.png",
     technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
     liveUrl: "https://www.ckwamboka.co.ke/",
     githubUrl: "https://github.com/ahmednule",

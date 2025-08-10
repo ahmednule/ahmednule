@@ -8,6 +8,11 @@
     "lint": "next lint",
     "start": "next start"
   },
+    "author": {
+    "name": "ahmednule",
+    "email": "nuleahmed6@gmail.com",
+    "url": "https://github.com/ahmednule"
+  },
   "dependencies": {
     "@ai-sdk/react": "latest",
     "@ai-sdk/xai": "latest",

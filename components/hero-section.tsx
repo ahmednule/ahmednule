@@ -7,7 +7,7 @@ import { GradientText } from "@/components/gradient-text"
 import { Section } from "@/components/section"
 
 const stats = [
-  { label: "Years Experience", value: "2+" },
+  { label: "Years Experience", value: "3+" },
   { label: "Projects", value: "9+" },
   { label: "Clients", value: "10+" },
 ]
