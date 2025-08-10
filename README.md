@@ -9,25 +9,24 @@ I'm a passionate **Software Engineer** specializing in creating innovative web a
 
 ### Languages & Frameworks
 
-<img src="public/assets/images/javascript.svg" alt="react" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/javascript.svg" alt="react" width=40/>
 
-<img src="public/assets/images/react.svg" alt="react" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/react.svg" alt="react" width=40/>
 
-<img src="public/assets/images/next.svg" alt="next"  width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/next.svg" alt="next" width=40/>
 
-<img src="public/assets/images/php.svg" alt="PHP"  width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/php.svg" alt="PHP" width=40/>
 
-<img src="public/assets/images/laravel.svg" width="100" alt="Laravel" />
+<img src="public/assets/images/laravel.svg" width="100" alt="Laravel" width=40/>
 
-<img src="public/assets/images/claude.svg" width="100" alt="Laravel"  /> 
+<img src="public/assets/images/claude.svg" width="100" alt="Laravel"  width=40/> 
 
-<img src="public/assets/images/typescript.svg" alt="ts" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/typescript.svg" alt="ts" width=40/>
+<img src="public/assets/images/prisma.svg" alt="prisma" width=40/>
 
-<img src="public/assets/images/prisma.svg" alt="prisma"  width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/postgresql.svg" alt="postgresql" width=40/>
 
-<img src="public/assets/images/postgresql.svg" alt="postgresql" width="100" style="margin-right: 10px;" />
-
-<img src="public/assets/images/graphql.svg" alt="graphql" width="100" style="margin-right: 10px;" />
+<img src="public/assets/images/graphql.svg" alt="graphql" width=40/>
 
 
 
@@ -68,6 +67,9 @@ Currently exploring and enhancing skills in:
 
 ## 💡 Fun Fact
 I'm passionate about mentoring aspiring developers and creating innovative tech solutions. Always open to collaboration and learning!
+
+## Credits
+This project is built upon the original work of *Ahmed Lukhman*, who developed the core code. I've modified and extended the code to suit my needs as I Improved it further.
 
 ---
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=ahmednule&theme=dark" alt="GitHub Streak" /></a>
