@@ -1,9 +1,14 @@
 # 👋 Ahmed Nule | Software Engineer 
 ## About Me
-I'm a passionate **Software Engineer** specializing in creating innovative web applications and AI-powered solutions. Currently **Working on shambasync**, contact me for new opportunities.
+I'm a passionate **Software Engineer** specializing in creating innovative web applications and AI-powered solutions. Currently **Working on shambasync - for financicial saving groups**, contact me for new opportunities.
 
-## 🚀 Previous Current Work
+## 🚀 Current Work
+- **Customer Service Intern** at Acorn Management Limited 
+
+## 🚀 Previous Work Experiences
 - **Frontend Developer** at Goymarey Enterprise
+- **Netwoking Engineer Intern** at Wesnet Technologies Limited
+- **IT Intern** at Acorn Management Limited
 
 ## 💻 Tech Stack
 
@@ -56,17 +61,19 @@ I'm a passionate **Software Engineer** specializing in creating innovative web a
 ## 🌱 Learning & Growth
 Currently exploring and enhancing skills in:
 - Web3
+- PHP
+- Laravel
 
 ## 📊 GitHub Performance
 ![Ahmed Nule's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahmednule&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
 
 ## 🤝 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-nule)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmednule)
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@ahmednule)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@SEInProgressHub)
 
 ## 💡 Fun Fact
-I'm passionate about mentoring aspiring developers and creating innovative tech solutions. Always open to collaboration and learning!
+I'm passionate about mentoring aspiring developers and creating innovative tech solutions!
 
 ---
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=ahmednule&theme=dark" alt="GitHub Streak" /></a>
