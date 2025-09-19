@@ -5,7 +5,6 @@ export async function POST(request: NextRequest) {
   try {
     const { name, email, subject, message } = await request.json()
 
-    // Create transporter
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: Number.parseInt(process.env.SMTP_PORT || "587"),
@@ -16,7 +15,6 @@ export async function POST(request: NextRequest) {
       },
     })
 
-    // Email to yourself
     await transporter.sendMail({
       from: process.env.SMTP_USER,
       to: process.env.CONTACT_EMAIL,
@@ -31,7 +29,6 @@ export async function POST(request: NextRequest) {
       `,
     })
 
-    // Auto-reply to sender
     await transporter.sendMail({
       from: process.env.SMTP_USER,
       to: email,

@@ -8,7 +8,7 @@
     "lint": "next lint",
     "start": "next start"
   },
-    "author": {
+  "author": {
     "name": "ahmednule",
     "email": "nuleahmed6@gmail.com",
     "url": "https://github.com/ahmednule"
@@ -71,6 +71,7 @@
   },
   "devDependencies": {
     "@types/node": "^22",
+    "@types/nodemailer": "^7.0.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "postcss": "^8.5",
