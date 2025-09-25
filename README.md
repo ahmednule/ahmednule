@@ -1,79 +1,76 @@
-# 👋 Ahmed Nule | Software Engineer 
-## About Me
-I'm a passionate **Software Engineer** specializing in creating innovative web applications and AI-powered solutions. Currently **Working on shambasync - for financicial saving groups**, contact me for new opportunities.
+# 👋 Ahmed Nule | Software Engineer
 
-## 🚀 Current Work
-- **Customer Service Intern** at Acorn Management Limited 
+I'm a passionate **Software Engineer** building innovative web applications and AI-powered solutions. Currently developing **[ShambaSync](https://github.com/ahmednule/shambasync)**—a platform empowering financial saving groups in underserved communities. Always open to collaboration, mentorship, and new opportunities!
 
-## 🚀 Previous Work Experiences
-- **Frontend Developer** at Goymarey Enterprise
-- **Netwoking Engineer Intern** at Wesnet Technologies Limited
-- **IT Intern** at Acorn Management Limited
+---
+
+## 🚀 Current Role
+- **Customer Service Intern** @ Acorn Management Limited
+
+## 💼 Previous Experience
+- **Frontend Developer** @ Goymarey Enterprise  
+- **Networking Engineer Intern** @ Wesnet Technologies Limited  
+- **IT Intern** @ Acorn Management Limited
+
+---
 
 ## 💻 Tech Stack
 
 ### Languages & Frameworks
+![JavaScript](https://skillicons.dev/icons?i=javascript)
+![TypeScript](https://skillicons.dev/icons?i=typescript)
+![Rust](https://skillicons.dev/icons?i=rust)
+![PHP](https://skillicons.dev/icons?i=php)
+![Laravel](https://skillicons.dev/icons?i=laravel)
+![React](https://skillicons.dev/icons?i=react)
+![Next.js](https://skillicons.dev/icons?i=nextjs)
+![Django](https://skillicons.dev/icons?i=django)
+![GraphQL](https://skillicons.dev/icons?i=graphql)
 
-<img src="public/images/javascript.svg" alt="react" width=40/>
+### Databases & ORMs
+- **Databases**: PostgreSQL, MySQL  
+- **ORMs**: Prisma, Sequelize, Eloquent (Laravel)
 
-<img src="public/images/react.svg" alt="react" width=40/>
+### Tools & Infrastructure
+![Git](https://skillicons.dev/icons?i=git)
+![ESLint](https://skillicons.dev/icons?i=eslint)
+![Supabase](https://skillicons.dev/icons?i=supabase)
+![Docker](https://skillicons.dev/icons?i=docker)
 
-<img src="public/images/next.svg" alt="next" width=40/>
+### Deployment & Platforms
+- **Hosting**: Vercel, Netlify, Render, DigitalOcean  
+- **Mobile**: React Native  
+- **Desktop**: Electron  
+- **APIs**: Apollo Server, Express, Laravel Sanctum/API Resources
 
-<img src="public/images/php.svg" alt="PHP" width=40/>
-
-<img src="public/images/laravel.svg" alt="Laravel" width=40/>
-
-<img src="public/images/claude.svg" alt="Laravel"  width=40/> 
-
-<img src="public/images/typescript.svg" alt="ts" width=40/>
-<img src="public/images/prisma.svg" alt="prisma" width=40/>
-
-<img src="public/images/postgresql.svg" alt="postgresql" width=40/>
-
-<img src="public/images/graphql.svg" alt="graphql" width=40/>
-
-
-
-
-### Tools & Technologies
-<img src="public/images/django.svg" alt="django" width="40" style="margin-right: 10px;" />
-
-<img src="public/images/supabase.svg" alt="supabase" width="40" style="margin-right: 10px;" />
-
-<img src="public/images/eslint.svg" alt="eslint" width="40" style="margin-right: 10px;" />
-
-<img src="public/images/git.svg" alt="git" width="40" style="margin-right: 10px;" />
-
-### Development & Deployment
-- **Hosting:** Vercel, Render, Netlify, Digital Ocean
-- **Mobile:** React Native
-- **Desktops:** Electron
-- **Data & APIs:** Prisma,@Prisma/Client, MySQL, Sequelize, PostgreSQL, Chart.js, Graghql, Apollo Server, Apollo-server-express
-
-### UI/UX Designs
-- Figma
-- Excalidraw.
-- Material UI
-- Acetenity UI
-- Gemini Brainstorming Model
-
-## 🌱 Learning & Growth
-Currently exploring and enhancing skills in:
-- Web3
-- PHP
-- Laravel
-
-## 📊 GitHub Performance
-![Ahmed Nule's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahmednule&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
-
-## 🤝 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmednule)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@ahmednule)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@SEInProgressHub)
-
-## 💡 Fun Fact
-I'm passionate about mentoring aspiring developers and creating innovative tech solutions!
+### UI/UX & Design
+- **Design**: Figma, Excalidraw  
+- **Component Libraries**: Material UI, Aceternity UI  
+- **AI-Assisted Ideation**: Gemini
 
 ---
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=ahmednule&theme=dark" alt="GitHub Streak" /></a>
+
+## 🌱 Currently Exploring
+- Advanced **PHP & Laravel** architecture (e.g., domain-driven design, service layers)  
+- **Rust** for systems programming and performance-critical tooling  
+- Web3 fundamentals & decentralized application patterns
+
+---
+
+## 📊 GitHub Stats
+![Ahmed Nule's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahmednule&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmednule&theme=radical&hide_border=false&layout=compact)
+
+---
+
+## 🤝 Let's Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmednule)
+[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@ahmednule)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@SEInProgressHub)
+
+---
+
+## 💡 Fun Fact
+I love mentoring aspiring developers and turning bold ideas into functional, user-centered tech solutions—because great software starts with empathy.
+
+> ✨ Built with open-source tools and a passion for clean, purposeful code.
