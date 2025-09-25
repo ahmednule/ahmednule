@@ -1,4 +1,4 @@
-import { ProjectStatus, type TProjectStatus } from "../lib/constants";
+import { type TProjectStatus } from "../lib/constants";
 import { StaticImageData } from "next/image";
 import { IconDefinition } from "@fortawesome/free-brands-svg-icons";
 
