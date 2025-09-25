@@ -80,11 +80,12 @@ export default function ContactForm() {
             name="name"
             label="Name"
             variant="bordered"
-            className="animate-slideInFromLeft opacity-0 delay-500 sm:delay-0"
+            className="animate-slideInFromLeft opacity-0 delay-500 sm:delay-0 text-white"
             classNames={{
               inputWrapper:
                 "border-slate-400 focus-within:!border-slate-300 shadow-[0_8px_16px_rgb(0_0_0/0.3)]",
               input: "text-body",
+              
             }}
           />
           <Input
