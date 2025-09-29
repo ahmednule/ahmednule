@@ -58,6 +58,9 @@ I'm a passionate **Software Engineer** building innovative web applications and 
 ---
 
 ## 📊 GitHub Stats
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=ahmednule)](https://git.io/streak-stats)
+
 ![Ahmed Nule's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahmednule&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmednule&theme=radical&hide_border=false&layout=compact)
 
