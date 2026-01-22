@@ -47,7 +47,7 @@ I'm a passionate **Software Engineer** building innovative web applications and 
 ### UI/UX & Design
 - **Design**: Figma, Excalidraw  
 - **Component Libraries**: Material UI, Aceternity UI  
-- **AI-Assisted Ideation**: Gemini
+- **AI-Assisted Ideation**: Gemini, Claude
 
 ---
 
@@ -76,5 +76,3 @@ I'm a passionate **Software Engineer** building innovative web applications and 
 
 ## 💡 Fun Fact
 I love mentoring aspiring developers and turning bold ideas into functional, user-centered tech solutions—because great software starts with empathy.
-
-> ✨ Built with open-source tools and a passion for clean, purposeful code.
