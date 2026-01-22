@@ -5,9 +5,10 @@ I'm a passionate **Software Engineer** building innovative web applications and 
 ---
 
 ## 🚀 Current Role
-- **Customer Service Intern** @ Acorn Management Limited
+- **Computer Science Student at Mount Kenya University**
 
 ## 💼 Previous Experience
+- **Customer Service Intern** @ Acorn Management Limited
 - **Frontend Developer** @ Goymarey Enterprise  
 - **Networking Engineer Intern** @ Wesnet Technologies Limited  
 - **IT Intern** @ Acorn Management Limited
