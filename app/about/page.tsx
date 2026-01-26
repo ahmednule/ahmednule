@@ -1,14 +1,18 @@
 import { AboutHero } from "@/components/about-hero"
-import { SkillsSection } from "@/components/skills-section"
-import { TimelineSection } from "@/components/timeline-section"
+import { MasterySection } from "@/components/about/mastery-section"
+import { TechStackSection } from "@/components/about/tech-stack-section"
+import { ExperienceSection } from "@/components/about/experience-section"
+import { CertificationsSection } from "@/components/about/certifications-section"
 import { InterestsSection } from "@/components/interests-section"
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen">
       <AboutHero />
-      <SkillsSection />
-      <TimelineSection />
+      <MasterySection />
+      <TechStackSection />
+      <ExperienceSection />
+      <CertificationsSection />
       <InterestsSection />
     </div>
   )
