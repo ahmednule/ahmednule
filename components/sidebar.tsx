@@ -34,10 +34,17 @@ const socials = [
   { name: "Twitter", href: "https://twitter.com/ahmednule", icon: Twitter },
 ]
 
-export function Sidebar() {
+export function Sidebar({ onCollapsedChange }: { onCollapsedChange?: (collapsed: boolean) => void }) {
   const pathname = usePathname()
   const { theme, toggleTheme } = useTheme()
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [desktopCollapsed, setDesktopCollapsed] = useState(false)
+
+  const toggleDesktopSidebar = () => {
+    const newState = !desktopCollapsed
+    setDesktopCollapsed(newState)
+    onCollapsedChange?.(newState)
+  }
 
   return (
     <>
@@ -71,11 +78,24 @@ export function Sidebar() {
         />
       )}
 
+      {/* Desktop toggle button */}
+      <button
+        onClick={toggleDesktopSidebar}
+        className={cn(
+          "hidden lg:flex fixed top-4 z-50 p-2 rounded-lg bg-sidebar border border-sidebar-border text-sidebar-foreground hover:bg-sidebar-accent transition-all duration-300",
+          desktopCollapsed ? "left-4" : "left-[17.5rem]"
+        )}
+        aria-label="Toggle sidebar"
+      >
+        <Menu className="w-5 h-5" />
+      </button>
+
       {/* Sidebar */}
       <aside
         className={cn(
-          "fixed top-0 left-0 z-50 h-full w-72 bg-sidebar border-r border-sidebar-border flex flex-col transition-transform duration-300 lg:translate-x-0",
-          mobileOpen ? "translate-x-0" : "-translate-x-full"
+          "fixed top-0 left-0 z-40 h-full w-72 bg-sidebar border-r border-sidebar-border flex flex-col transition-transform duration-300",
+          mobileOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0",
+          desktopCollapsed && "lg:-translate-x-full"
         )}
       >
         {/* Profile section */}

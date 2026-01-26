@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
-import { Sidebar } from '@/components/sidebar'
+import { LayoutContent } from '@/components/layout-content'
 
 const _inter = Inter({ subsets: ["latin"] });
 
@@ -41,12 +41,7 @@ export default function RootLayout({
     <html lang="en" className="bg-background" suppressHydrationWarning>
       <body className="font-sans antialiased">
         <ThemeProvider>
-          <div className="flex min-h-screen">
-            <Sidebar />
-            <main className="flex-1 lg:ml-72 transition-all duration-300">
-              {children}
-            </main>
-          </div>
+          <LayoutContent>{children}</LayoutContent>
         </ThemeProvider>
         <Analytics />
       </body>
