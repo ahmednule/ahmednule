@@ -9,18 +9,21 @@ import {
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   return (
-    <NextThemesProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+    <NextThemesProvider attribute="class" defaultTheme="system" enableSystem={true}>
       {children}
     </NextThemesProvider>
   )
 }
 
 export function useTheme() {
-  const { theme, setTheme } = useNextTheme()
+  const { theme, setTheme, systemTheme } = useNextTheme()
   
   const toggleTheme = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark')
+    const currentTheme = theme === 'system' ? systemTheme : theme
+    setTheme(currentTheme === 'dark' ? 'light' : 'dark')
   }
   
-  return { theme: theme as 'light' | 'dark', toggleTheme }
+  const currentTheme = theme === 'system' ? systemTheme : theme
+  
+  return { theme: currentTheme as 'light' | 'dark', toggleTheme, setTheme }
 }

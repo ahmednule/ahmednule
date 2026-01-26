@@ -82,12 +82,16 @@ export function Sidebar({ onCollapsedChange }: { onCollapsedChange?: (collapsed:
       <button
         onClick={toggleDesktopSidebar}
         className={cn(
-          "hidden lg:flex fixed top-4 z-50 p-2 rounded-lg bg-sidebar border border-sidebar-border text-sidebar-foreground hover:bg-sidebar-accent transition-all duration-300",
+          "hidden lg:flex fixed top-4 z-50 p-3 rounded-lg bg-primary text-primary-foreground shadow-lg hover:bg-primary/90 transition-all duration-300 items-center justify-center",
           desktopCollapsed ? "left-4" : "left-[17.5rem]"
         )}
         aria-label="Toggle sidebar"
       >
-        <Menu className="w-5 h-5" />
+        {desktopCollapsed ? (
+          <Menu className="w-5 h-5" />
+        ) : (
+          <X className="w-5 h-5" />
+        )}
       </button>
 
       {/* Sidebar */}
