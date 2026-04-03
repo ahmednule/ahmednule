@@ -1,6 +1,6 @@
-import Goymarey from "public/assets/images/Goymarey.png"
-import acorn from "public/assets/images/acorn.png"
-import wesnet from "public/assets/images/wesnet.webp"
+import Goymarey from "../../assets/images/Goymarey.png"
+import acorn from "../../assets/images/acorn.png"
+import wesnet from "../../assets/images/wesnet.webp"
 import type { Experience } from "@/types/about"
 
 export const EXPERIENCE_DATA: Experience[] = [

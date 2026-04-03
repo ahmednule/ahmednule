@@ -1,6 +1,6 @@
-import FrontEndImage from "/public/assets/images/frontend.jpg"
-import BackEndImage from "/public/assets/images/backend.jpg"
-import DesignImage from "/public/assets/images/design.jpg"
+import FrontEndImage from "../../assets/images/frontend.jpg"
+import BackEndImage from "../../assets/images/backend.jpg"
+import DesignImage from "../../assets/images/design.jpg"
 import type { Mastery } from "@/types/about"
 
 export const MASTERY_DATA: Mastery[] = [

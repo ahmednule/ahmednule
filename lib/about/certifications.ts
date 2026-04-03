@@ -1,8 +1,8 @@
-import plp from "public/assets/images/plp.webp"
-import TNNP from "public/assets/images/TNNP.png"
-import GreatLearning from "public/assets/images/greatlearning.jpeg"
-import alx from "public/assets/images/alx.svg"
-import zetech from "public/assets/images/zetech.png"
+import plp from "../../assets/images/plp.webp"
+import TNNP from "../../assets/images/TNNP.png"
+import GreatLearning from "../../assets/images/greatlearning.jpeg"
+import alx from "../../assets/images/alx.svg"
+import zetech from "../../assets/images/zetech.png"
 import type { Certification } from "@/types/about"
 
 export const CERTIFICATIONS_DATA: Certification[] = [
@@ -10,7 +10,7 @@ export const CERTIFICATIONS_DATA: Certification[] = [
     title: "Bachelor of Computer Science",
     organization: "Mount Kenya University",
     year: "Expected Graduation: 2028",
-    file: "Zetech_Bachelor_Certificate",
+    file: "MKU_Bachelor_Certificate",
     description:
       "Pursuing a Bachelor's degree in Computer Science with a focus on full-stack development, AI systems, and software architecture. Actively applying theoretical knowledge through projects, internships, and hackathons to build scalable and innovative tech solutions.",
     logo: zetech,
