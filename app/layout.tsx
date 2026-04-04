@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 import { LayoutContent } from '@/components/layout-content'
+import { Chatbot } from '@/components/chatbot'
 
 const _inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +43,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <ThemeProvider>
           <LayoutContent>{children}</LayoutContent>
+          <Chatbot />
         </ThemeProvider>
         <Analytics />
       </body>
