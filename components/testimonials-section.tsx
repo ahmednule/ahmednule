@@ -1,8 +1,7 @@
 "use client"
 
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Button } from "@nextui-org/button"
+import { ArrowLeft, ArrowRight } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import { useCallback, useEffect, useState } from "react"
@@ -68,10 +67,8 @@ export const TestimonialsSection = ({
   }
 
   return (
-    <section className="relative px-6 py-24 lg:px-12 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/3 to-transparent" />
-      
-      <div className="relative mb-12">
+    <section className="px-6 py-24 lg:px-12">
+      <div className="mb-12">
         <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
           What People Say
         </h2>
@@ -181,26 +178,20 @@ export const TestimonialsSection = ({
             </motion.div>
             <div className="flex justify-center sm:justify-start gap-4 pt-12 md:pt-0">
               <Button
-                onPress={handlePrev}
+                onClick={handlePrev}
                 aria-label="Previous testimonial"
-                isIconOnly
-                className="group/button bg-primary text-primary-foreground"
+                size="icon"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
-                <FontAwesomeIcon
-                  icon={faArrowLeft}
-                  className="group-hover/button:rotate-12 transition-transform duration-300"
-                />
+                <ArrowLeft className="w-4 h-4" />
               </Button>
               <Button
-                isIconOnly
-                onPress={handleNext}
+                onClick={handleNext}
                 aria-label="Next testimonial"
-                className="group/button bg-primary text-primary-foreground"
+                size="icon"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
-                <FontAwesomeIcon
-                  icon={faArrowRight}
-                  className="group-hover/button:-rotate-12 transition-transform duration-300"
-                />
+                <ArrowRight className="w-4 h-4" />
               </Button>
             </div>
           </div>

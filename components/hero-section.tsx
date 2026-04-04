@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
@@ -40,6 +40,12 @@ export function HeroSection() {
           </Button>
           <Button asChild variant="outline" size="lg">
             <Link href="/contact">Get in Touch</Link>
+          </Button>
+          <Button asChild variant="ghost" size="lg">
+            <a href="/assets/files/ahmednule.pdf" download="Ahmed_Nule_CV.pdf">
+              <Download className="w-4 h-4 mr-2" />
+              Download CV
+            </a>
           </Button>
         </div>
       </div>

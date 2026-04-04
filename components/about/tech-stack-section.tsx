@@ -7,27 +7,27 @@ import { BACKEND_TECHS } from "@/lib/about/backend"
 
 export function TechStackSection() {
   return (
-    <section className="relative px-6 py-24 lg:px-12 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/3 to-transparent" />
-      
+    <section className="px-6 py-24 lg:px-12">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="relative max-w-6xl mx-auto"
+        className="max-w-6xl mx-auto"
       >
-        <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
-          Tech Stack
-        </h2>
-        <p className="text-muted-foreground mb-12">
-          Technologies I use to bring ideas to life
-        </p>
+        <div className="mb-12">
+          <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
+            Tech Stack
+          </h2>
+          <p className="text-muted-foreground">
+            Technologies I use to bring ideas to life
+          </p>
+        </div>
 
         {/* Frontend */}
         <div className="mb-16">
-          <h3 className="text-xl font-semibold text-foreground mb-6">
-            Frontend Technologies
+          <h3 className="text-lg font-semibold text-foreground mb-6">
+            Frontend
           </h3>
           <motion.div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
             {FRONT_END_TECHS.map((tech, index) => (
@@ -59,8 +59,8 @@ export function TechStackSection() {
 
         {/* Backend */}
         <div>
-          <h3 className="text-xl font-semibold text-foreground mb-6">
-            Backend Technologies
+          <h3 className="text-lg font-semibold text-foreground mb-6">
+            Backend
           </h3>
           <motion.div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
             {BACKEND_TECHS.map((tech, index) => (

@@ -6,22 +6,22 @@ import { MASTERY_DATA } from "@/lib/about/mastery"
 
 export function MasterySection() {
   return (
-    <section className="relative px-6 py-24 lg:px-12 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/3 to-transparent" />
-      
+    <section className="px-6 py-24 lg:px-12">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="relative max-w-6xl mx-auto"
+        className="max-w-6xl mx-auto"
       >
-        <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
-          My Expertise
-        </h2>
-        <p className="text-muted-foreground mb-12">
-          Core areas where I bring the most value
-        </p>
+        <div className="mb-12">
+          <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
+            My Expertise
+          </h2>
+          <p className="text-muted-foreground">
+            Core areas where I bring the most value
+          </p>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {MASTERY_DATA.map((mastery, index) => (
