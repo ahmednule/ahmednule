@@ -158,29 +158,20 @@ export function Sidebar({ onCollapsedChange }: { onCollapsedChange?: (collapsed:
         </div>
 
         <div className="p-4 border-t border-sidebar-border">
-          <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="flex items-center justify-center gap-4">
             {socials.map((social) => (
               <a
                 key={social.name}
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg text-sidebar-foreground/50 hover:text-sidebar-primary hover:bg-sidebar-accent/50 transition-colors"
+                className="p-3 rounded-xl text-sidebar-foreground/50 hover:text-sidebar-primary hover:bg-sidebar-accent/50 transition-colors"
                 aria-label={social.name}
               >
-                <social.icon className="w-4 h-4" />
+                <social.icon className="w-5 h-5" />
               </a>
             ))}
           </div>
-
-          <button
-            onClick={cycleTheme}
-            className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-sidebar-accent/50 text-sidebar-foreground/70 hover:bg-sidebar-accent hover:text-sidebar-foreground transition-colors text-sm"
-            aria-label={`Switch theme (current: ${themeLabel})`}
-          >
-            <ThemeIcon className="w-4 h-4" />
-            <span>{themeLabel}</span>
-          </button>
         </div>
       </aside>
 
