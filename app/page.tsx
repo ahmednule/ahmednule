@@ -16,7 +16,7 @@ export default function HomePage() {
       <TechStackSection />
       <ProjectSpotlight />
       <TestimonialsSection />
-      <GitHubActivity />
+      {/* <GitHubActivity /> */}
       <ContactCTA />
     </div>
   )

@@ -2,20 +2,26 @@
 
 import { useState, useRef, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { MessageCircle, X, Send, Bot, User, ArrowRight } from "lucide-react"
+import { MessageCircle, X, Send, Bot, User, ArrowRight, Mic, Volume2, VolumeX, Square } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { processMessage, type ChatMessage } from "@/lib/chat-handler"
 import { usePathname, useRouter } from "next/navigation"
+import { useSpeechRecognition } from "@/hooks/use-speech-recognition"
+import { useSpeechSynthesis } from "@/hooks/use-speech-synthesis"
 
 export function Chatbot() {
   const [open, setOpen] = useState(false)
   const [input, setInput] = useState("")
   const [messages, setMessages] = useState<ChatMessage[]>([])
   const [isTyping, setIsTyping] = useState(false)
+  const [speakingId, setSpeakingId] = useState<string | null>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   const pathname = usePathname()
   const router = useRouter()
+
+  const { isListening, transcript, isSupported: speechSupported, startListening, stopListening } = useSpeechRecognition()
+  const { isSpeaking: synthSpeaking, isSupported: synthSupported, speak, stop: stopSpeaking } = useSpeechSynthesis()
 
   useEffect(() => {
     if (open && messages.length === 0) {
@@ -40,6 +46,12 @@ export function Chatbot() {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
   }, [messages, isTyping])
 
+  useEffect(() => {
+    if (transcript && isListening) {
+      setInput(transcript)
+    }
+  }, [transcript, isListening])
+
   const sendMessage = () => {
     if (!input.trim()) return
 
@@ -53,6 +65,10 @@ export function Chatbot() {
     setMessages((prev) => [...prev, userMessage])
     setInput("")
     setIsTyping(true)
+
+    if (isListening) {
+      stopListening()
+    }
 
     setTimeout(() => {
       const response = processMessage(userMessage.content)
@@ -87,6 +103,22 @@ export function Chatbot() {
     }
     setOpen(false)
   }
+
+  const toggleVoice = (msgId: string, content: string) => {
+    if (speakingId === msgId) {
+      stopSpeaking()
+      setSpeakingId(null)
+    } else {
+      setSpeakingId(msgId)
+      speak(content)
+    }
+  }
+
+  useEffect(() => {
+    if (!synthSpeaking) {
+      setSpeakingId(null)
+    }
+  }, [synthSpeaking])
 
   return (
     <>
@@ -161,6 +193,24 @@ export function Chatbot() {
                       <User className="w-3 h-3 text-muted-foreground" />
                     </div>
                   )}
+                  {msg.role === "bot" && synthSupported && (
+                    <button
+                      onClick={() => toggleVoice(msg.id, msg.content)}
+                      className={cn(
+                        "self-center flex-shrink-0 p-1.5 rounded-lg transition-all duration-200",
+                        speakingId === msg.id
+                          ? "bg-primary/20 text-primary"
+                          : "text-muted-foreground hover:text-primary hover:bg-primary/10"
+                      )}
+                      aria-label={speakingId === msg.id ? "Stop speaking" : "Read aloud"}
+                    >
+                      {speakingId === msg.id ? (
+                        <Square className="w-3.5 h-3.5" />
+                      ) : (
+                        <Volume2 className="w-3.5 h-3.5" />
+                      )}
+                    </button>
+                  )}
                 </div>
               ))}
               {isTyping && (
@@ -189,9 +239,29 @@ export function Chatbot() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={handleKeyDown}
-                  placeholder="Ask about Ahmed..."
-                  className="flex-1 bg-secondary border border-border rounded-lg px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
+                  placeholder={isListening ? "Listening..." : "Ask about Ahmed..."}
+                  className={cn(
+                    "flex-1 bg-secondary border border-border rounded-lg px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all",
+                    isListening && "border-primary/50 ring-2 ring-primary/20"
+                  )}
                 />
+                {speechSupported && (
+                  <button
+                    onMouseDown={startListening}
+                    onMouseUp={stopListening}
+                    onTouchStart={startListening}
+                    onTouchEnd={stopListening}
+                    className={cn(
+                      "p-2 rounded-lg transition-all duration-200",
+                      isListening
+                        ? "bg-red-500 text-white animate-pulse"
+                        : "bg-secondary text-muted-foreground hover:text-primary hover:bg-secondary/80"
+                    )}
+                    aria-label={isListening ? "Stop listening" : "Start voice input"}
+                  >
+                    <Mic className="w-4 h-4" />
+                  </button>
+                )}
                 <button
                   onClick={sendMessage}
                   disabled={!input.trim()}
@@ -201,6 +271,15 @@ export function Chatbot() {
                   <Send className="w-4 h-4" />
                 </button>
               </div>
+              {isListening && (
+                <p className="text-xs text-muted-foreground mt-2 text-center flex items-center justify-center gap-1.5">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
+                  </span>
+                  Listening... release to send
+                </p>
+              )}
             </div>
           </motion.div>
         )}
