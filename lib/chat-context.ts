@@ -53,14 +53,14 @@ export const PORTFOLIO_CONTEXT = {
   ],
 
   projects: [
-    { name: "ShambaSync", description: "A platform empowering financial saving groups in underserved communities with transparent tracking, automated calculations, and comprehensive financial reporting.", tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"], github: "https://github.com/ahmednule/shambasync" },
-    { name: "CoffeeHub", description: "A coffee marketplace platform connecting local growers with buyers.", tech: ["Next.js", "React", "Tailwind"] },
-    { name: "Cinemania", description: "A movie discovery and review application.", tech: ["React", "API Integration", "Tailwind"] },
-    { name: "Bellans", description: "A business management platform.", tech: ["Next.js", "PostgreSQL", "Tailwind"] },
-    { name: "AgriGuide", description: "An agricultural guidance platform for farmers.", tech: ["React", "Node.js", "MongoDB"] },
-    { name: "DiabetesKenya", description: "A health awareness platform for diabetes education.", tech: ["Next.js", "React", "Tailwind"] },
-    { name: "Ujamaa", description: "A community-driven platform for collaboration.", tech: ["React", "Express", "PostgreSQL"] },
-    { name: "ShakeHands", description: "A professional networking platform for freelancers.", tech: ["Next.js", "GraphQL", "PostgreSQL"] },
+    { name: "Diabetes Care Kenya", description: "A health platform solving challenges Kenyans face when diagnosed with diabetes. Built with Next.js 15, Prisma ORM, and Aceternity UI.", tech: ["Next.js", "TypeScript", "Prisma", "Tailwind"], github: "https://github.com/ahmednule/diabetes-care-kenya", demo: "https://diabetes-care-kenya.vercel.app/" },
+    { name: "Smart Kuku", description: "A modern poultry management system built with TypeScript for tracking farm operations.", tech: ["TypeScript", "Next.js", "React"], github: "https://github.com/ahmednule/smart-kuku" },
+    { name: "Kujali", description: "Financial Planning, Operations & Reporting platform for organizational financial management.", tech: ["TypeScript", "React"], github: "https://github.com/ahmednule/kujali" },
+    { name: "Rust Tutorial", description: "A hands-on Rust learning resource documenting the journey into systems programming.", tech: ["Rust", "HTML", "CSS"], github: "https://github.com/ahmednule/rust-tutorial" },
+    { name: "Interview Time", description: "Interview preparation materials and coding challenges in Python.", tech: ["Python", "Algorithms", "DSA"], github: "https://github.com/ahmednule/interview-time" },
+    { name: "Big-O Notation", description: "Python implementations of Big-O notation concepts for algorithm complexity analysis.", tech: ["Python", "Algorithms"], github: "https://github.com/ahmednule/Big-O-Notation" },
+    { name: "30 Days of Angular", description: "A day-by-day Angular learning journey covering routing, components, and services.", tech: ["Angular", "TypeScript"], github: "https://github.com/ahmednule/day-3-0f-30-of-angular" },
+    { name: "BIT 2203 DSA", description: "Data Structures and Algorithms coursework from Mount Kenya University.", tech: ["Python", "DSA"], github: "https://github.com/ahmednule/BIT_2203_DSA" },
   ],
 
   interests: ["Photography", "Open Source", "Music", "Hiking", "Reading", "Gaming"],

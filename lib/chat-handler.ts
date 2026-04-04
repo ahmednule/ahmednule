@@ -83,10 +83,10 @@ function matchIntent(input: string): Intent {
 
   // ShambaSync specific
   if (/\bshamba|shambasync\b/.test(lower)) {
-    const project = PORTFOLIO_CONTEXT.projects.find(p => p.name === "ShambaSync")
     return {
       type: "projects",
-      response: `**ShambaSync** is Ahmed's flagship project — a platform empowering financial saving groups in underserved communities.\n\nIt features:\n• Transparent contribution tracking\n• Automated savings calculations\n• Group management & reporting\n• Financial analytics dashboard\n\nBuilt with: ${project?.tech.join(", ")}\n\nView it on GitHub: ${project?.github}`,
+      response: `Ahmed is currently developing **ShambaSync** — a platform empowering financial saving groups in underserved communities. It's not yet on GitHub but is his flagship project. Check out his other repos like **Diabetes Care Kenya** and **Smart Kuku** in the meantime!`,
+      navigation: "projects",
     }
   }
 

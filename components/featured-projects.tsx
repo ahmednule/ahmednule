@@ -5,25 +5,25 @@ import { Button } from "@/components/ui/button"
 
 const featuredProjects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
-    tags: ["Next.js", "Stripe", "PostgreSQL"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    title: "Diabetes Care Kenya",
+    description: "A health platform solving challenges Kenyans face when diagnosed with diabetes. Built with Next.js 15, Prisma ORM, and Aceternity UI.",
+    tags: ["Next.js", "TypeScript", "Prisma", "Tailwind"],
+    github: "https://github.com/ahmednule/diabetes-care-kenya",
+    demo: "https://diabetes-care-kenya.vercel.app/",
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project management tool with real-time updates, drag-and-drop interface, and team features.",
-    tags: ["React", "Node.js", "Socket.io"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    title: "Smart Kuku",
+    description: "A modern poultry management system built with TypeScript for tracking and managing farm operations efficiently.",
+    tags: ["TypeScript", "Next.js", "React"],
+    github: "https://github.com/ahmednule/smart-kuku",
+    demo: null,
   },
   {
-    title: "AI Content Generator",
-    description: "Machine learning powered content creation tool with custom templates and brand voice settings.",
-    tags: ["Python", "OpenAI", "React"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    title: "Rust Tutorial",
+    description: "A hands-on Rust learning resource documenting the journey into systems programming with practical examples.",
+    tags: ["Rust", "HTML", "CSS"],
+    github: "https://github.com/ahmednule/rust-tutorial",
+    demo: null,
   },
 ]
 
@@ -72,15 +72,17 @@ export function FeaturedProjects() {
                   <Github className="w-4 h-4" />
                   Code
                 </a>
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  Demo
-                </a>
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    Demo
+                  </a>
+                )}
               </div>
             </CardContent>
           </Card>

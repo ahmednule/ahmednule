@@ -9,68 +9,44 @@ const filters = ["All", "Frontend", "Backend", "Full-stack"]
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A comprehensive e-commerce solution with real-time inventory management, secure payment processing via Stripe, and a powerful admin dashboard for managing products and orders.",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    title: "Diabetes Care Kenya",
+    description: "A health platform solving challenges Kenyans face when diagnosed with diabetes. Built with Next.js 15, Prisma ORM, Aceternity UI, and Tailwind CSS for a modern, accessible experience.",
+    tags: ["Next.js", "TypeScript", "Prisma", "Tailwind", "Aceternity UI"],
     category: "Full-stack",
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/ahmednule/diabetes-care-kenya",
+    demo: "https://diabetes-care-kenya.vercel.app/",
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project management tool featuring real-time updates using WebSockets, intuitive drag-and-drop interface, and comprehensive team collaboration features.",
-    tags: ["React", "Node.js", "Socket.io", "MongoDB"],
+    title: "Smart Kuku",
+    description: "A modern poultry management system built with TypeScript for tracking and managing farm operations efficiently.",
+    tags: ["TypeScript", "Next.js", "React"],
     category: "Full-stack",
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/ahmednule/smart-kuku",
+    demo: null,
   },
   {
-    title: "AI Content Generator",
-    description: "Machine learning powered content creation tool with customizable templates, brand voice settings, and support for multiple content formats including blog posts and social media.",
-    tags: ["Python", "OpenAI", "React", "FastAPI"],
-    category: "Full-stack",
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "Design System Library",
-    description: "A comprehensive component library built with accessibility in mind. Includes 50+ reusable components, dark mode support, and extensive documentation with Storybook.",
-    tags: ["React", "TypeScript", "Storybook", "Tailwind"],
-    category: "Frontend",
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "Real-time Analytics Dashboard",
-    description: "Interactive dashboard for visualizing business metrics with real-time data updates, customizable widgets, and export capabilities for reports and presentations.",
-    tags: ["Vue.js", "D3.js", "WebSocket", "Chart.js"],
-    category: "Frontend",
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "REST API Boilerplate",
-    description: "Production-ready Node.js API starter with authentication, rate limiting, database migrations, comprehensive testing setup, and Docker configuration for easy deployment.",
-    tags: ["Node.js", "Express", "PostgreSQL", "Docker"],
+    title: "Interview Time",
+    description: "A collection of interview preparation materials and coding challenges in Python for technical interview readiness.",
+    tags: ["Python", "Algorithms", "DSA"],
     category: "Backend",
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/ahmednule/interview-time",
+    demo: null,
   },
   {
-    title: "Portfolio Website Builder",
-    description: "Drag-and-drop website builder specifically designed for creatives. Features customizable themes, responsive layouts, and one-click deployment to various hosting platforms.",
-    tags: ["Next.js", "Prisma", "Vercel", "Tailwind"],
-    category: "Full-stack",
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "Microservices Architecture",
-    description: "Scalable microservices setup using Docker and Kubernetes. Includes service mesh, distributed tracing, centralized logging, and automated CI/CD pipelines.",
-    tags: ["Node.js", "Docker", "Kubernetes", "Redis"],
+    title: "Big-O Notation",
+    description: "Python implementations and visualizations of Big-O notation concepts for understanding algorithm complexity analysis.",
+    tags: ["Python", "Algorithms", "CS Fundamentals"],
     category: "Backend",
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/ahmednule/Big-O-Notation",
+    demo: null,
+  },
+  {
+    title: "BIT 2203 DSA",
+    description: "Data Structures and Algorithms coursework from Mount Kenya University. Covers fundamental CS concepts with Python implementations.",
+    tags: ["Python", "DSA", "University"],
+    category: "Backend",
+    github: "https://github.com/ahmednule/BIT_2203_DSA",
+    demo: null,
   },
 ]
 
@@ -125,15 +101,17 @@ export function ProjectsGrid() {
                   >
                     <Github className="w-4 h-4" />
                   </a>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
-                    aria-label={`View ${project.title} demo`}
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                  </a>
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+                      aria-label={`View ${project.title} demo`}
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
               </div>
             </CardHeader>
