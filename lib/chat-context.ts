@@ -53,6 +53,7 @@ export const PORTFOLIO_CONTEXT = {
   ],
 
   projects: [
+    { name: "Online Management System", description: "A Django web app for managing employee leave requests with balance tracking, automated notifications, and calendar view. Most starred project with 6 stars.", tech: ["Django", "Python", "HTML", "CSS"], github: "https://github.com/ahmednule/Online_leave_Management_system", demo: "https://online-leave-management-system.onrender.com" },
     { name: "Diabetes Care Kenya", description: "A health platform solving challenges Kenyans face when diagnosed with diabetes. Built with Next.js 15, Prisma ORM, and Aceternity UI.", tech: ["Next.js", "TypeScript", "Prisma", "Tailwind"], github: "https://github.com/ahmednule/diabetes-care-kenya", demo: "https://diabetes-care-kenya.vercel.app/" },
     { name: "Smart Kuku", description: "A modern poultry management system built with TypeScript for tracking farm operations.", tech: ["TypeScript", "Next.js", "React"], github: "https://github.com/ahmednule/smart-kuku" },
     { name: "Kujali", description: "Financial Planning, Operations & Reporting platform for organizational financial management.", tech: ["TypeScript", "React"], github: "https://github.com/ahmednule/kujali" },

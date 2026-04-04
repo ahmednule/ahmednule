@@ -9,6 +9,14 @@ const filters = ["All", "Frontend", "Backend", "Full-stack"]
 
 const projects = [
   {
+    title: "Online Management System",
+    description: "A Django web app that simplifies managing employee leave requests, featuring leave balance tracking, automated notifications, and a calendar view. Most starred project on GitHub with 6 stars.",
+    tags: ["Django", "Python", "HTML", "CSS"],
+    category: "Full-stack",
+    github: "https://github.com/ahmednule/Online_leave_Management_system",
+    demo: "https://online-leave-management-system.onrender.com",
+  },
+  {
     title: "Diabetes Care Kenya",
     description: "A health platform solving challenges Kenyans face when diagnosed with diabetes. Built with Next.js 15, Prisma ORM, Aceternity UI, and Tailwind CSS for a modern, accessible experience.",
     tags: ["Next.js", "TypeScript", "Prisma", "Tailwind", "Aceternity UI"],

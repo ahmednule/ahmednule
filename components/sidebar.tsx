@@ -27,8 +27,6 @@ const navigation = [
   { name: "Contact", href: "/contact", icon: Mail },
 ]
 
-const skills = ["React", "Next.js", "TypeScript", "Node.js", "UI/UX", "Tailwind"]
-
 const socials = [
   { name: "GitHub", href: "https://github.com/ahmednule", icon: Github },
   { name: "LinkedIn", href: "https://linkedin.com/in/ahmednule", icon: Linkedin },
@@ -148,31 +146,15 @@ export function Sidebar({ onCollapsedChange }: { onCollapsedChange?: (collapsed:
           </ul>
         </nav>
 
-        <div className="px-4 py-3 border-t border-sidebar-border">
+        <div className="px-4 py-4 border-t border-sidebar-border">
           <a
             href="/assets/files/ahmednule.pdf"
             download="Ahmed_Nule_CV.pdf"
-            className="flex items-center gap-3 px-4 py-2.5 rounded-xl text-sidebar-foreground/70 hover:bg-sidebar-accent/50 hover:text-sidebar-foreground transition-all duration-200"
+            className="flex items-center justify-center gap-2.5 px-4 py-3 rounded-xl bg-gradient-to-r from-primary to-primary/80 text-primary-foreground font-medium text-sm hover:from-primary/90 hover:to-primary/70 transition-all duration-200 shadow-lg shadow-primary/20"
           >
-            <Download className="w-5 h-5" />
-            <span>Download CV</span>
+            <Download className="w-4 h-4" />
+            Download CV
           </a>
-        </div>
-
-        <div className="px-6 py-4 border-t border-sidebar-border">
-          <h3 className="text-xs font-semibold text-sidebar-foreground/40 uppercase tracking-wider mb-3">
-            Skills
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {skills.map((skill) => (
-              <span
-                key={skill}
-                className="px-2.5 py-1 text-xs rounded-lg bg-sidebar-accent/50 text-sidebar-foreground/70"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
         </div>
 
         <div className="p-4 border-t border-sidebar-border">

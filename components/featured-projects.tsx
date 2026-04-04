@@ -5,6 +5,13 @@ import { Button } from "@/components/ui/button"
 
 const featuredProjects = [
   {
+    title: "Online Management System",
+    description: "A Django web app that simplifies managing employee leave requests, featuring leave balance tracking, automated notifications, and a calendar view. 6 stars on GitHub.",
+    tags: ["Django", "Python", "HTML", "CSS"],
+    github: "https://github.com/ahmednule/Online_leave_Management_system",
+    demo: "https://online-leave-management-system.onrender.com",
+  },
+  {
     title: "Diabetes Care Kenya",
     description: "A health platform solving challenges Kenyans face when diagnosed with diabetes. Built with Next.js 15, Prisma ORM, and Aceternity UI.",
     tags: ["Next.js", "TypeScript", "Prisma", "Tailwind"],
@@ -16,13 +23,6 @@ const featuredProjects = [
     description: "A modern poultry management system built with TypeScript for tracking and managing farm operations efficiently.",
     tags: ["TypeScript", "Next.js", "React"],
     github: "https://github.com/ahmednule/smart-kuku",
-    demo: null,
-  },
-  {
-    title: "Rust Tutorial",
-    description: "A hands-on Rust learning resource documenting the journey into systems programming with practical examples.",
-    tags: ["Rust", "HTML", "CSS"],
-    github: "https://github.com/ahmednule/rust-tutorial",
     demo: null,
   },
 ]
