@@ -4,10 +4,22 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section className="px-6 py-16 lg:px-12 lg:py-24">
-      <div className="max-w-3xl">
-        <p className="text-primary font-medium mb-4">Hello, I'm</p>
-        <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
+    <section className="relative px-6 py-24 lg:px-12 lg:py-32 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/5" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-20 w-64 h-64 bg-primary/5 rounded-full blur-3xl" />
+
+      <div className="relative max-w-3xl">
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
+          <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
+          </span>
+          Available for opportunities
+        </div>
+
+        <p className="text-primary font-medium mb-4 text-lg">Hello, I'm</p>
+        <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-6 text-balance tracking-tight">
           Ahmed Nule
         </h1>
         <h2 className="text-2xl lg:text-3xl text-muted-foreground font-medium mb-6">

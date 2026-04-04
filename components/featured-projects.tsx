@@ -29,9 +29,14 @@ const featuredProjects = [
 
 export function FeaturedProjects() {
   return (
-    <section className="px-6 py-16 lg:px-12 bg-card/50">
-      <div className="flex items-center justify-between mb-8">
-        <h2 className="text-2xl lg:text-3xl font-bold text-foreground">Featured Projects</h2>
+    <section className="relative px-6 py-24 lg:px-12 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/3 to-transparent" />
+
+      <div className="relative flex items-center justify-between mb-10">
+        <div>
+          <h2 className="text-2xl lg:text-3xl font-bold text-foreground">Featured Projects</h2>
+          <p className="text-muted-foreground mt-1">A selection of my best work</p>
+        </div>
         <Button asChild variant="ghost" size="sm">
           <Link href="/projects" className="text-primary">
             View All
@@ -41,17 +46,17 @@ export function FeaturedProjects() {
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {featuredProjects.map((project) => (
-          <Card key={project.title} className="bg-card border-border hover:border-primary/50 transition-colors">
+          <Card key={project.title} className="bg-card border-border hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 group">
             <CardHeader>
-              <CardTitle className="text-foreground">{project.title}</CardTitle>
+              <CardTitle className="text-foreground group-hover:text-primary transition-colors">{project.title}</CardTitle>
               <CardDescription className="text-muted-foreground">{project.description}</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="flex flex-wrap gap-2 mb-4">
+              <div className="flex flex-wrap gap-2 mb-5">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-2 py-1 text-xs rounded-md bg-secondary text-secondary-foreground"
+                    className="px-2.5 py-1 text-xs rounded-lg bg-secondary/80 text-secondary-foreground font-medium"
                   >
                     {tag}
                   </span>
@@ -62,7 +67,7 @@ export function FeaturedProjects() {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors"
+                  className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Github className="w-4 h-4" />
                   Code
@@ -71,7 +76,7 @@ export function FeaturedProjects() {
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors"
+                  className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   <ExternalLink className="w-4 h-4" />
                   Demo

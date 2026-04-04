@@ -22,7 +22,7 @@ const testimonials: Testimonial[] = [
     src: "/assets/images/indresh.jpeg",
   },
   {
-    quote: "I recommend Ahmed to any prospectiive oppotunities as he would be a valuable member of the team.",
+    quote: "I recommend Ahmed to any prospective opportunities as he would be a valuable member of the team.",
     name: "Washington Gichuru",
     designation: "Head Of Information Technology at Acorn",
     src: "/assets/images/washington.jpeg",
@@ -68,8 +68,10 @@ export const TestimonialsSection = ({
   }
 
   return (
-    <section className="px-6 py-16 lg:px-12 bg-card/50">
-      <div className="mb-12">
+    <section className="relative px-6 py-24 lg:px-12 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/3 to-transparent" />
+      
+      <div className="relative mb-12">
         <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
           What People Say
         </h2>

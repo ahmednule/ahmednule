@@ -2,12 +2,15 @@ import { MapPin } from "lucide-react"
 
 export function AboutHero() {
   return (
-    <section className="px-6 py-16 lg:px-12 lg:py-24">
-      <div className="max-w-3xl">
-        <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">About Me</h1>
+    <section className="relative px-6 py-24 lg:px-12 lg:py-32 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/5" />
+      <div className="absolute top-10 right-0 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
+
+      <div className="relative max-w-3xl">
+        <h1 className="text-5xl lg:text-6xl font-bold text-foreground mb-6 tracking-tight">About Me</h1>
         <div className="flex items-center gap-2 text-muted-foreground mb-8">
           <MapPin className="w-4 h-4" />
-          <span>Nairobi Kenya</span>
+          <span>Nairobi, Kenya</span>
         </div>
         <div className="space-y-6 text-muted-foreground leading-relaxed">
           <p>

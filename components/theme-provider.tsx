@@ -23,7 +23,7 @@ export function useTheme() {
     setTheme(currentTheme === 'dark' ? 'light' : 'dark')
   }
   
-  const currentTheme = theme === 'system' ? systemTheme : theme
+  const resolvedTheme = theme === 'system' ? systemTheme : theme
   
-  return { theme: currentTheme as 'light' | 'dark', toggleTheme, setTheme }
+  return { theme: theme as 'light' | 'dark' | 'system', resolvedTheme: resolvedTheme as 'light' | 'dark', toggleTheme, setTheme }
 }

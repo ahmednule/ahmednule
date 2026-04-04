@@ -7,17 +7,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export function ExperienceSection() {
   return (
-    <section className="px-6 py-16 lg:px-12 bg-card/50">
+    <section className="relative px-6 py-24 lg:px-12 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/3 to-transparent" />
+      
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="max-w-4xl mx-auto"
+        className="relative max-w-4xl mx-auto"
       >
-        <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-12">
+        <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
           Work Experience
         </h2>
+        <p className="text-muted-foreground mb-12">
+          Where I've contributed and grown as a developer
+        </p>
 
         <div className="space-y-6">
           {EXPERIENCE_DATA.map((exp, index) => (
@@ -28,7 +33,7 @@ export function ExperienceSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="bg-card border-border hover:border-primary/50 transition-colors">
+              <Card className="bg-card border-border hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
                 <CardHeader>
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex-1">
@@ -52,10 +57,10 @@ export function ExperienceSection() {
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="text-sm font-medium text-primary">
+                      <p className="text-sm font-medium text-primary px-2.5 py-1 rounded-lg bg-primary/10 inline-block">
                         {exp.type}
                       </p>
-                      <p className="text-xs text-muted-foreground">
+                      <p className="text-xs text-muted-foreground mt-1.5">
                         {exp.startDate.toLocaleDateString("en-US", {
                           month: "short",
                           year: "numeric",

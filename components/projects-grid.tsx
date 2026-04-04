@@ -82,17 +82,17 @@ export function ProjectsGrid() {
     : projects.filter((project) => project.category === activeFilter)
 
   return (
-    <section className="px-6 pb-16 lg:px-12">
+    <section className="px-6 pb-24 lg:px-12">
       {/* Filters */}
-      <div className="flex flex-wrap gap-2 mb-8">
+      <div className="flex flex-wrap gap-2 mb-10">
         {filters.map((filter) => (
           <button
             key={filter}
             onClick={() => setActiveFilter(filter)}
             className={cn(
-              "px-4 py-2 rounded-lg text-sm font-medium transition-colors",
+              "px-5 py-2.5 rounded-xl text-sm font-medium transition-all duration-200",
               activeFilter === filter
-                ? "bg-primary text-primary-foreground"
+                ? "bg-primary text-primary-foreground shadow-md shadow-primary/20"
                 : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
             )}
           >
@@ -104,48 +104,48 @@ export function ProjectsGrid() {
       {/* Projects grid */}
       <div className="grid gap-6 md:grid-cols-2">
         {filteredProjects.map((project) => (
-          <Card key={project.title} className="bg-card border-border hover:border-primary/50 transition-all duration-300 group">
+          <Card key={project.title} className="bg-card border-border hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 group">
             <CardHeader>
               <div className="flex items-start justify-between">
                 <div>
                   <CardTitle className="text-foreground group-hover:text-primary transition-colors">
                     {project.title}
                   </CardTitle>
-                  <span className="text-xs text-primary font-medium mt-1 inline-block">
+                  <span className="text-xs text-primary/80 font-medium mt-1.5 inline-block px-2 py-0.5 rounded-md bg-primary/10">
                     {project.category}
                   </span>
                 </div>
-                <div className="flex gap-2">
+                <div className="flex gap-1.5">
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-secondary transition-colors"
+                    className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
                     aria-label={`View ${project.title} on GitHub`}
                   >
-                    <Github className="w-5 h-5" />
+                    <Github className="w-4 h-4" />
                   </a>
                   <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-secondary transition-colors"
+                    className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
                     aria-label={`View ${project.title} demo`}
                   >
-                    <ExternalLink className="w-5 h-5" />
+                    <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
               </div>
             </CardHeader>
             <CardContent>
-              <CardDescription className="text-muted-foreground mb-4 leading-relaxed">
+              <CardDescription className="text-muted-foreground mb-5 leading-relaxed">
                 {project.description}
               </CardDescription>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-2 py-1 text-xs rounded-md bg-secondary text-secondary-foreground"
+                    className="px-2.5 py-1 text-xs rounded-lg bg-secondary/80 text-secondary-foreground font-medium"
                   >
                     {tag}
                   </span>

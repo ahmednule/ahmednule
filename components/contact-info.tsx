@@ -25,7 +25,7 @@ const contactDetails = [
 
 const socialLinks = [
   { name: "GitHub", href: "https://github.com/ahmednule", icon: Github },
-  { name: "LinkedIn", href: "https://linkedin.com/ahmednule", icon: Linkedin },
+  { name: "LinkedIn", href: "https://linkedin.com/in/ahmednule", icon: Linkedin },
   { name: "Twitter", href: "https://x.com/ahmednule", icon: Twitter },
 ]
 
