@@ -27,18 +27,18 @@ export function ContactForm() {
   }
 
   return (
-    <Card className="bg-card border-border">
+    <Card className="border-white/10 bg-card/85 shadow-2xl shadow-slate-950/20 backdrop-blur-md">
       <CardHeader>
         <CardTitle className="text-foreground">Send a Message</CardTitle>
-        <CardDescription className="text-muted-foreground">
+        <CardDescription className="leading-6 text-muted-foreground">
           {"Fill out the form below and I'll get back to you as soon as possible."}
         </CardDescription>
       </CardHeader>
       <CardContent>
         {submitted ? (
           <div className="py-8 text-center">
-            <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-              <Send className="w-8 h-8 text-primary" />
+            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-lg bg-emerald-300/15">
+              <Send className="h-8 w-8 text-emerald-200" />
             </div>
             <h3 className="text-lg font-semibold text-foreground mb-2">Message Sent!</h3>
             <p className="text-muted-foreground">
@@ -56,7 +56,7 @@ export function ContactForm() {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
-                  className="bg-background border-border"
+                  className="border-white/10 bg-slate-950/50"
                 />
               </div>
               <div className="space-y-2">
@@ -68,7 +68,7 @@ export function ContactForm() {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   required
-                  className="bg-background border-border"
+                  className="border-white/10 bg-slate-950/50"
                 />
               </div>
             </div>
@@ -80,7 +80,7 @@ export function ContactForm() {
                 value={formData.subject}
                 onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                 required
-                className="bg-background border-border"
+                className="border-white/10 bg-slate-950/50"
               />
             </div>
             <div className="space-y-2">
@@ -92,10 +92,10 @@ export function ContactForm() {
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 required
-                className="bg-background border-border resize-none"
+                className="resize-none border-white/10 bg-slate-950/50"
               />
             </div>
-            <Button type="submit" className="w-full sm:w-auto">
+            <Button type="submit" className="w-full bg-cyan-300 text-slate-950 hover:bg-cyan-200 sm:w-auto">
               <Send className="w-4 h-4 mr-2" />
               Send Message
             </Button>

@@ -33,15 +33,16 @@ function ThemeToggle() {
 export function LayoutContent({ children }: { children: React.ReactNode }) {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const pathname = usePathname()
+  const isImmersiveHome = pathname === "/"
 
   return (
     <div className="flex min-h-screen">
       <ScrollProgress />
-      <Sidebar onCollapsedChange={setSidebarCollapsed} />
-      <ThemeToggle />
+      {!isImmersiveHome && <Sidebar onCollapsedChange={setSidebarCollapsed} />}
+      {!isImmersiveHome && <ThemeToggle />}
       <main className={cn(
         "flex-1 transition-all duration-300",
-        sidebarCollapsed ? "lg:ml-0" : "lg:ml-72"
+        !isImmersiveHome && (sidebarCollapsed ? "lg:ml-0" : "lg:ml-72")
       )}>
         <AnimatePresence mode="wait">
           <motion.div

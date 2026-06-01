@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink, Github, Layers3 } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { cn } from "@/lib/utils"
 
@@ -68,16 +68,16 @@ export function ProjectsGrid() {
   return (
     <section className="px-6 pb-24 lg:px-12">
       {/* Filters */}
-      <div className="flex flex-wrap gap-2 mb-10">
+      <div className="mx-auto mb-10 flex max-w-6xl flex-wrap gap-2">
         {filters.map((filter) => (
           <button
             key={filter}
             onClick={() => setActiveFilter(filter)}
             className={cn(
-              "px-5 py-2.5 rounded-xl text-sm font-medium transition-all duration-200",
+              "rounded-md px-5 py-2.5 text-sm font-medium transition-all duration-200",
               activeFilter === filter
-                ? "bg-primary text-primary-foreground shadow-md shadow-primary/20"
-                : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                ? "bg-cyan-300 text-slate-950 shadow-md shadow-cyan-950/20"
+                : "border border-white/10 bg-card/80 text-muted-foreground hover:bg-secondary hover:text-foreground"
             )}
           >
             {filter}
@@ -86,16 +86,19 @@ export function ProjectsGrid() {
       </div>
 
       {/* Projects grid */}
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="mx-auto grid max-w-6xl gap-5 md:grid-cols-2">
         {filteredProjects.map((project) => (
-          <Card key={project.title} className="bg-card border-border hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 group">
+          <Card key={project.title} className="group border-white/10 bg-card/82 shadow-2xl shadow-slate-950/15 backdrop-blur-md transition-all duration-300 hover:border-cyan-300/35 hover:bg-card">
             <CardHeader>
               <div className="flex items-start justify-between">
-                <div>
-                  <CardTitle className="text-foreground group-hover:text-primary transition-colors">
+                <div className="min-w-0">
+                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-md bg-cyan-300/10 text-cyan-200">
+                    <Layers3 className="h-5 w-5" />
+                  </div>
+                  <CardTitle className="text-foreground transition-colors group-hover:text-cyan-100">
                     {project.title}
                   </CardTitle>
-                  <span className="text-xs text-primary/80 font-medium mt-1.5 inline-block px-2 py-0.5 rounded-md bg-primary/10">
+                  <span className="mt-2 inline-block rounded-md border border-emerald-300/15 bg-emerald-300/10 px-2 py-0.5 text-xs font-medium text-emerald-100">
                     {project.category}
                   </span>
                 </div>
@@ -104,7 +107,7 @@ export function ProjectsGrid() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+                    className="rounded-md p-2 text-muted-foreground transition-colors hover:bg-cyan-300/10 hover:text-cyan-100"
                     aria-label={`View ${project.title} on GitHub`}
                   >
                     <Github className="w-4 h-4" />
@@ -114,7 +117,7 @@ export function ProjectsGrid() {
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+                      className="rounded-md p-2 text-muted-foreground transition-colors hover:bg-cyan-300/10 hover:text-cyan-100"
                       aria-label={`View ${project.title} demo`}
                     >
                       <ExternalLink className="w-4 h-4" />
@@ -124,14 +127,14 @@ export function ProjectsGrid() {
               </div>
             </CardHeader>
             <CardContent>
-              <CardDescription className="text-muted-foreground mb-5 leading-relaxed">
+              <CardDescription className="mb-5 leading-7 text-muted-foreground">
                 {project.description}
               </CardDescription>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-2.5 py-1 text-xs rounded-lg bg-secondary/80 text-secondary-foreground font-medium"
+                    className="rounded-md border border-white/10 bg-secondary/70 px-2.5 py-1 text-xs font-medium text-secondary-foreground"
                   >
                     {tag}
                   </span>

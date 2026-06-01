@@ -2,28 +2,32 @@ import { MapPin } from "lucide-react"
 
 export function AboutHero() {
   return (
-    <section className="relative px-6 py-24 lg:px-12 lg:py-32 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/5" />
-      <div className="absolute top-10 right-0 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
+    <section className="relative overflow-hidden px-6 py-20 lg:px-12 lg:py-28">
+      <div className="absolute inset-0 bg-gradient-to-b from-cyan-300/10 via-transparent to-transparent" />
 
-      <div className="relative max-w-3xl">
-        <h1 className="text-5xl lg:text-6xl font-bold text-foreground mb-6 tracking-tight">About Me</h1>
-        <div className="flex items-center gap-2 text-muted-foreground mb-8">
-          <MapPin className="w-4 h-4" />
+      <div className="relative mx-auto max-w-5xl">
+        <div className="mb-5 inline-flex items-center rounded-md border border-cyan-300/20 bg-cyan-300/10 px-3 py-1.5 text-sm font-medium text-cyan-100">
+          Connected systems engineer
+        </div>
+        <h1 className="mb-6 text-5xl font-bold tracking-normal text-foreground lg:text-6xl">
+          About Me
+        </h1>
+        <div className="mb-8 flex items-center gap-2 text-muted-foreground">
+          <MapPin className="h-4 w-4" />
           <span>Nairobi, Kenya</span>
         </div>
-        <div className="space-y-6 text-muted-foreground leading-relaxed">
+        <div className="max-w-3xl space-y-6 text-muted-foreground leading-8">
           <p>
-            {"I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability."}
+            I am a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work sits where product design, full-stack development, and practical systems thinking meet.
           </p>
           <p>
-            {"Currently, I'm a Full-Stack Developer specializing in building modern web applications. I contribute to the creation and maintenance of UI components that power various products, ensuring platforms meet web accessibility standards and best practices to deliver an inclusive user experience."}
+            Currently, I specialize in building modern web applications and reliable product interfaces, with a growing focus on connected workflows, IoT dashboards, APIs, and data-driven software.
           </p>
           <p>
-            {"In the past, I've had the opportunity to develop software across a variety of settings — from advertising agencies and large corporations to start-ups and small digital product studios. Additionally, I enjoy contributing to open-source projects and sharing knowledge through technical writing and mentoring."}
+            I have worked across agencies, organizations, start-ups, and digital product studios. I also enjoy contributing to open-source projects, technical writing, and mentoring other developers.
           </p>
           <p>
-            {"In my spare time, I'm usually exploring new technologies, reading about design systems, working on side projects, or enjoying outdoor activities like hiking and photography."}
+            Away from the code editor, I am usually exploring new technologies, reading about design systems, working on side projects, or spending time outdoors.
           </p>
         </div>
       </div>

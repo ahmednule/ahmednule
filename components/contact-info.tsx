@@ -33,22 +33,22 @@ export function ContactInfo() {
   return (
     <div className="space-y-6">
       {/* Contact details */}
-      <Card className="bg-card border-border">
+      <Card className="border-white/10 bg-card/85 shadow-2xl shadow-slate-950/20 backdrop-blur-md">
         <CardHeader>
           <CardTitle className="text-foreground">Contact Information</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           {contactDetails.map((detail) => (
             <div key={detail.label} className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-                <detail.icon className="w-5 h-5 text-primary" />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-cyan-300/10">
+                <detail.icon className="h-5 w-5 text-cyan-200" />
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">{detail.label}</p>
                 {detail.href ? (
                   <a
                     href={detail.href}
-                    className="text-foreground hover:text-primary transition-colors"
+                    className="text-foreground transition-colors hover:text-cyan-100"
                   >
                     {detail.value}
                   </a>
@@ -56,8 +56,8 @@ export function ContactInfo() {
                   <p className="text-foreground flex items-center gap-2">
                     {detail.value}
                     {detail.status === "available" && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/20 text-primary text-xs">
-                        <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+                      <span className="inline-flex items-center gap-1 rounded-md bg-emerald-300/15 px-2 py-0.5 text-xs text-emerald-100">
+                        <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-300" />
                         Available
                       </span>
                     )}
@@ -70,19 +70,19 @@ export function ContactInfo() {
       </Card>
 
       {/* Social links */}
-      <Card className="bg-card border-border">
+      <Card className="border-white/10 bg-card/85 shadow-2xl shadow-slate-950/20 backdrop-blur-md">
         <CardHeader>
           <CardTitle className="text-foreground">Connect with Me</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="flex gap-3">
+          <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
             {socialLinks.map((social) => (
               <a
                 key={social.name}
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-3 rounded-lg bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                className="flex items-center justify-center gap-2 rounded-md border border-white/10 bg-secondary/70 px-4 py-3 text-secondary-foreground transition-colors hover:bg-cyan-300 hover:text-slate-950"
                 aria-label={`Follow on ${social.name}`}
               >
                 <social.icon className="w-5 h-5" />
@@ -94,7 +94,7 @@ export function ContactInfo() {
       </Card>
 
       {/* Response time */}
-      <Card className="bg-card border-border">
+      <Card className="border-white/10 bg-card/85 shadow-2xl shadow-slate-950/20 backdrop-blur-md">
         <CardContent className="pt-6">
           <p className="text-muted-foreground text-sm leading-relaxed">
             {"I typically respond to messages within 24-48 hours. For urgent matters, please mention it in your subject line and I'll prioritize your message."}

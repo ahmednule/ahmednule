@@ -7,24 +7,24 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export function ExperienceSection() {
   return (
-    <section className="relative px-6 py-24 lg:px-12 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/3 to-transparent" />
+    <section className="relative overflow-hidden px-6 py-20 lg:px-12">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-300/5 to-transparent" />
       
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="relative max-w-4xl mx-auto"
+        className="relative mx-auto max-w-5xl"
       >
-        <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
+        <h2 className="mb-2 text-2xl font-bold text-foreground lg:text-3xl">
           Work Experience
         </h2>
-        <p className="text-muted-foreground mb-12">
+        <p className="mb-10 text-muted-foreground">
           Where I've contributed and grown as a developer
         </p>
 
-        <div className="space-y-6">
+        <div className="space-y-5">
           {EXPERIENCE_DATA.map((exp, index) => (
             <motion.div
               key={`${exp.company}-${exp.title}`}
@@ -33,12 +33,12 @@ export function ExperienceSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="bg-card border-border hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
+              <Card className="border-white/10 bg-card/85 shadow-2xl shadow-slate-950/15 backdrop-blur-md transition-all duration-300 hover:border-cyan-300/35">
                 <CardHeader>
-                  <div className="flex items-start justify-between gap-4">
+                  <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <div className="relative w-12 h-12 rounded-lg overflow-hidden bg-card border border-border">
+                        <div className="relative h-12 w-12 overflow-hidden rounded-md border border-white/10 bg-card">
                           <Image
                             src={exp.companyLogo}
                             alt={exp.company}
@@ -56,8 +56,8 @@ export function ExperienceSection() {
                         </div>
                       </div>
                     </div>
-                    <div className="text-right">
-                      <p className="text-sm font-medium text-primary px-2.5 py-1 rounded-lg bg-primary/10 inline-block">
+                    <div className="sm:text-right">
+                      <p className="inline-block rounded-md border border-cyan-300/15 bg-cyan-300/10 px-2.5 py-1 text-sm font-medium text-cyan-100">
                         {exp.type}
                       </p>
                       <p className="text-xs text-muted-foreground mt-1.5">
@@ -80,7 +80,7 @@ export function ExperienceSection() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="leading-7 text-muted-foreground">
                     {exp.description}
                   </p>
                 </CardContent>
