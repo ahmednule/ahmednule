@@ -1,59 +1,15 @@
-import php from "../../assets/images/php.svg"
-import laravel from "../../assets/images/laravel.svg"
-import AuthJS from "../../assets/images/authjs.svg"
-import Prisma from "../../assets/images/prisma.svg"
-import Supabase from "../../assets/images/supabase.svg"
-import PostgreSQL from "../../assets/images/postgresql.svg"
-import apollo from "../../assets/images/apollo.svg"
-import django from "../../assets/images/django.svg"
-import express from "../../assets/images/express.svg"
-import graphql from "../../assets/images/graphql.svg"
-import node from "../../assets/images/node.svg"
 import type { BackEndTech } from "@/types/about"
 
 export const BACKEND_TECHS: BackEndTech[] = [
-  {
-    name: "Laravel",
-    src: laravel,
-  },
-  {
-    name: "PHP",
-    src: php,
-  },
-  {
-    name: "NodeJs",
-    src: node,
-  },
-  {
-    name: "Express",
-    src: express,
-  },
-  {
-    name: "Apollo Server",
-    src: apollo,
-  },
-  {
-    name: "GraphQL",
-    src: graphql,
-  },
-  {
-    name: "Django",
-    src: django,
-  },
-  {
-    name: "Auth.js",
-    src: AuthJS,
-  },
-  {
-    name: "Prisma",
-    src: Prisma,
-  },
-  {
-    name: "Supabase",
-    src: Supabase,
-  },
-  {
-    name: "PostgreSQL",
-    src: PostgreSQL,
-  },
+  { name: "Laravel", src: "/assets/images/laravel.svg" },
+  { name: "PHP", src: "/assets/images/php.svg" },
+  { name: "NodeJs", src: "/assets/images/node.svg" },
+  { name: "Express", src: "/assets/images/express.svg" },
+  { name: "Apollo Server", src: "/assets/images/apollo.svg" },
+  { name: "GraphQL", src: "/assets/images/graphql.svg" },
+  { name: "Django", src: "/assets/images/django.svg" },
+  { name: "Auth.js", src: "/assets/images/authjs.svg" },
+  { name: "Prisma", src: "/assets/images/prisma.svg" },
+  { name: "Supabase", src: "/assets/images/supabase.svg" },
+  { name: "PostgreSQL", src: "/assets/images/postgresql.svg" },
 ]

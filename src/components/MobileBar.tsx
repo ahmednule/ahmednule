@@ -1,7 +1,9 @@
 const NAV = [
   { href: "#log", label: "Log" },
   { href: "#stack", label: "Stack" },
+  { href: "#service", label: "Service" },
   { href: "#about", label: "About" },
+  { href: "#creds", label: "Creds" },
   { href: "#contact", label: "Contact" },
 ];
 

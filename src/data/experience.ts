@@ -1,6 +1,3 @@
-import Goymarey from "../../assets/images/Goymarey.png"
-import acorn from "../../assets/images/acorn.png"
-import wesnet from "../../assets/images/wesnet.webp"
 import type { Experience } from "@/types/about"
 
 export const EXPERIENCE_DATA: Experience[] = [
@@ -11,7 +8,7 @@ export const EXPERIENCE_DATA: Experience[] = [
       "Currently interning at Acorn Management Limited, assisting in managing resident communications, handling service requests, and supporting customer relationship management. Collaborating with cross-functional teams to enhance the overall tenant experience while gaining valuable exposure to customer success operations.",
     company: "Acorn Management Limited",
     startDate: new Date(2025, 7),
-    companyLogo: acorn,
+    companyLogo: "/assets/images/acorn.png",
   },
   {
     title: "IT Internship",
@@ -21,7 +18,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     company: "Acorn Holdings Limited",
     startDate: new Date(2023, 1),
     endDate: new Date(2023, 4),
-    companyLogo: acorn,
+    companyLogo: "/assets/images/acorn.png",
   },
   {
     title: "IT Internship",
@@ -31,7 +28,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     company: "Wesnet Limited",
     startDate: new Date(2024, 1),
     endDate: new Date(2024, 4),
-    companyLogo: wesnet,
+    companyLogo: "/assets/images/wesnet.webp",
   },
   {
     title: "Front-End Developer",
@@ -40,6 +37,6 @@ export const EXPERIENCE_DATA: Experience[] = [
       "Designed and implemented visually engaging UI components, integrated APIs, and optimized application performance using Next.js, React, Express, Apollo Server, and GraphQL. Played a key role in shaping the user experience for enterprise-level web applications.",
     company: "Goymarey Enterprise",
     startDate: new Date(2024, 11),
-    companyLogo: Goymarey,
+    companyLogo: "/assets/images/Goymarey.png",
   },
 ]

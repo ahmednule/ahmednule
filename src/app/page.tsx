@@ -3,25 +3,9 @@ import MobileBar from "@/components/MobileBar";
 import Contours from "@/components/Contours";
 import LogEntryCard from "@/components/LogEntryCard";
 import { entries } from "@/data/projects";
-
-const STACK_GROUPS = [
-  {
-    label: "Interface",
-    items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Zustand"],
-  },
-  {
-    label: "Systems & data",
-    items: ["Node.js", "PostgreSQL", "Neo4j AuraDB", "Prisma", "Azure Functions"],
-  },
-  {
-    label: "Hardware & signal",
-    items: ["Arduino Uno", "ESP32", "I2C peripherals", "Rust"],
-  },
-  {
-    label: "Infra & tooling",
-    items: ["Docker", "WSL", "pnpm", "Render", "Vercel"],
-  },
-];
+import StackSection from "@/components/StackSection";
+import ServiceRecord from "@/components/ServiceRecord";
+import Credentials from "@/components/Credentials";
 
 export default function Home() {
   return (
@@ -91,39 +75,9 @@ export default function Home() {
           </div>
         </section>
 
-        {/* STACK */}
-        <section
-          id="stack"
-          className="ledger-rule border-t border-line px-6 py-20 sm:px-12"
-        >
-          <header className="mb-10">
-            <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-parchment-dim">
-              Engineering stack
-            </span>
-            <h2 className="mt-2 font-display text-3xl sm:text-4xl text-parchment">
-              Tools, arranged by what they do
-            </h2>
-          </header>
-          <div className="grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2">
-            {STACK_GROUPS.map((group) => (
-              <div key={group.label}>
-                <h3 className="font-mono text-[11px] uppercase tracking-[0.16em] text-crop">
-                  {group.label}
-                </h3>
-                <ul className="mt-4 flex flex-col gap-2">
-                  {group.items.map((item) => (
-                    <li
-                      key={item}
-                      className="font-display text-xl text-parchment/90"
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </section>
+        <StackSection />
+
+        <ServiceRecord />
 
         {/* ABOUT */}
         <section
@@ -198,6 +152,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <Credentials />
 
         <footer className="flex flex-col gap-2 border-t border-line px-6 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-12">
           <span className="font-mono text-[11px] text-parchment-dim">

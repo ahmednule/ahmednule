@@ -1,8 +1,10 @@
 const NAV = [
   { href: "#log", label: "Log" },
   { href: "#stack", label: "Stack" },
+  { href: "#service", label: "Service" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
+  { href: "#creds", label: "Creds" },
 ];
 
 function Reading({ label, value }: { label: string; value: string }) {
@@ -40,6 +42,8 @@ export default function InstrumentRail() {
           <Reading label="Role" value="Founder, Stable Stack" />
           <Reading label="Study" value="BSCCS \u00b7 MKU '26" />
           <Reading label="Systems logged" value="6 entries" />
+          <Reading label="Assignments" value="4 postings" />
+          <Reading label="Credentials" value="5 on file" />
         </div>
       </div>
 
