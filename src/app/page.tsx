@@ -6,6 +6,8 @@ import { entries } from "@/data/projects";
 import StackSection from "@/components/StackSection";
 import ServiceRecord from "@/components/ServiceRecord";
 import Credentials from "@/components/Credentials";
+import ContactTrigger from "@/components/ContactTrigger";
+import MpesaTrigger from "@/components/MpesaTrigger";
 
 export default function Home() {
   return (
@@ -49,6 +51,7 @@ export default function Home() {
               >
                 Start a project
               </a>
+              <MpesaTrigger />
             </div>
           </div>
         </section>
@@ -149,6 +152,7 @@ export default function Home() {
               >
                 LinkedIn
               </a>
+              <ContactTrigger />
             </div>
           </div>
         </section>
