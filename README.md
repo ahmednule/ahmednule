@@ -20,7 +20,6 @@ I'm a passionate **Software Engineer** building innovative web applications and 
 ### Languages & Frameworks
 ![JavaScript](https://skillicons.dev/icons?i=javascript)
 ![TypeScript](https://skillicons.dev/icons?i=typescript)
-![Rust](https://skillicons.dev/icons?i=rust)
 ![PHP](https://skillicons.dev/icons?i=php)
 ![Laravel](https://skillicons.dev/icons?i=laravel)
 ![React](https://skillicons.dev/icons?i=react)
@@ -29,7 +28,7 @@ I'm a passionate **Software Engineer** building innovative web applications and 
 ![GraphQL](https://skillicons.dev/icons?i=graphql)
 
 ### Databases & ORMs
-- **Databases**: PostgreSQL, MySQL  
+- **Databases**: PostgreSQL, MySQL, Graph Database
 - **ORMs**: Prisma, Sequelize, Eloquent (Laravel)
 
 ### Tools & Infrastructure
