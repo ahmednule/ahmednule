@@ -5,22 +5,22 @@ import Contours from "@/components/Contours";
 
 export default function StackSection() {
   return (
-    <section id="stack" className="relative overflow-hidden border-t border-line px-6 py-20 sm:px-12">
+    <section id="stack" className="relative overflow-hidden border-t border-line px-5 py-16 sm:px-12 sm:py-20">
       <Contours
         className="pointer-events-none absolute inset-0 h-full w-full opacity-30"
         lineCount={5}
       />
       <div className="relative">
-        <header className="mb-10">
-          <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-parchment-dim">
+        <header className="mb-8 sm:mb-10">
+          <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-parchment-dim sm:text-[11px]">
             Engineering stack
           </span>
-          <h2 className="mt-2 font-display text-3xl sm:text-4xl text-parchment">
+          <h2 className="mt-1.5 font-display text-2xl text-parchment sm:mt-2 sm:text-4xl">
             Tools, arranged by what they do
           </h2>
         </header>
 
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:gap-10 lg:grid-cols-3">
           {MASTERY_DATA.map((area) => {
             const techs =
               area.title === "Front End"
@@ -32,7 +32,7 @@ export default function StackSection() {
             return (
               <div
                 key={area.title}
-                className="group relative rounded-sm border border-line bg-soil-raised/60 p-6 transition-colors hover:border-line-strong"
+                className="group relative rounded-sm border border-line bg-soil-raised/60 p-5 transition-colors hover:border-line-strong sm:p-6"
               >
                 <div
                   className="absolute inset-0 rounded-sm opacity-[0.04] group-hover:opacity-[0.08] transition-opacity"

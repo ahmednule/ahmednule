@@ -3,23 +3,23 @@ import Contours from "@/components/Contours";
 
 export default function Credentials() {
   return (
-    <section id="creds" className="relative overflow-hidden border-t border-line px-6 py-20 sm:px-12">
+    <section id="creds" className="relative overflow-hidden border-t border-line px-5 py-16 sm:px-12 sm:py-20">
       <Contours className="pointer-events-none absolute inset-0 h-full w-full opacity-20" lineCount={4} />
       <div className="relative">
-        <header className="mb-10">
-          <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-parchment-dim">
+        <header className="mb-8 sm:mb-10">
+          <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-parchment-dim sm:text-[11px]">
             Station credentials
           </span>
-          <h2 className="mt-2 font-display text-3xl sm:text-4xl text-parchment">
+          <h2 className="mt-1.5 font-display text-2xl text-parchment sm:mt-2 sm:text-4xl">
             Education &amp; certifications
           </h2>
         </header>
 
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 sm:gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {CERTIFICATIONS_DATA.map((cert, i) => (
             <div
               key={i}
-              className="group flex flex-col rounded-sm border border-line bg-soil-raised/40 p-5 transition-colors hover:border-line-strong"
+              className="group flex flex-col rounded-sm border border-line bg-soil-raised/40 p-4 transition-colors hover:border-line-strong sm:p-5"
             >
               <div className="flex items-center gap-3">
                 <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-line bg-soil overflow-hidden">

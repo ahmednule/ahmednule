@@ -86,7 +86,6 @@ a {
   outline-offset: 3px;
 }
 
-/* Signature: field-note ledger rule pattern used behind headers */
 .ledger-rule {
   background-image: repeating-linear-gradient(
     to bottom,
@@ -95,6 +94,14 @@ a {
     transparent 1px,
     transparent 28px
   );
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }
 
 .status-dot {
