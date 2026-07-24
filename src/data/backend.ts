@@ -8,7 +8,6 @@ export const BACKEND_TECHS: BackEndTech[] = [
   { name: "Apollo Server", src: "/assets/images/apollo.svg" },
   { name: "GraphQL", src: "/assets/images/graphql.svg" },
   { name: "Django", src: "/assets/images/django.svg" },
-  { name: "Auth.js", src: "/assets/images/authjs.svg" },
   { name: "Prisma", src: "/assets/images/prisma.svg" },
   { name: "Supabase", src: "/assets/images/supabase.svg" },
   { name: "PostgreSQL", src: "/assets/images/postgresql.svg" },

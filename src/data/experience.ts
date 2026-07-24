@@ -8,6 +8,7 @@ export const EXPERIENCE_DATA: Experience[] = [
       "Currently interning at Acorn Management Limited, assisting in managing resident communications, handling service requests, and supporting customer relationship management. Collaborating with cross-functional teams to enhance the overall tenant experience while gaining valuable exposure to customer success operations.",
     company: "Acorn Management Limited",
     startDate: new Date(2025, 7),
+    endDate: new Date(2025, 12),
     companyLogo: "/assets/images/acorn.png",
   },
   {
@@ -37,6 +38,7 @@ export const EXPERIENCE_DATA: Experience[] = [
       "Designed and implemented visually engaging UI components, integrated APIs, and optimized application performance using Next.js, React, Express, Apollo Server, and GraphQL. Played a key role in shaping the user experience for enterprise-level web applications.",
     company: "Goymarey Enterprise",
     startDate: new Date(2024, 11),
+    endDate: new Date(2025, 6),
     companyLogo: "/assets/images/Goymarey.png",
   },
 ]

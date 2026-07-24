@@ -6,10 +6,7 @@ export const FRONT_END_TECHS: FrontEndTech[] = [
   { name: "JavaScript", src: "/assets/images/javascript.svg" },
   { name: "React.js", src: "/assets/images/react.svg" },
   { name: "Next.js", src: "/assets/images/next.svg" },
-  { name: "Svelte", src: "/assets/images/svelte.svg" },
   { name: "TypeScript", src: "/assets/images/typescript.svg" },
   { name: "Tailwind CSS", src: "/assets/images/tailwind.svg" },
-  { name: "HeroUI", src: "/assets/images/heroui.svg" },
-  { name: "Aceternity UI", src: "/assets/images/aceternity.webp" },
   { name: "Zod", src: "/assets/images/zod.svg" },
 ]
